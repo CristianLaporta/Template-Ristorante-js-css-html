@@ -107,8 +107,8 @@ input#menuButton:checked ~ nav {
 /* sebastian */
 
 #slide {
-	width:60%;
-	margin: 0 auto;
+	
+	/*margin: 0 auto;*/
 	padding:20px;
 	box-sizing: border-box;
  
