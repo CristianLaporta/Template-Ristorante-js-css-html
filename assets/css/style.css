@@ -3,7 +3,9 @@
     src: url("../fonts/fontawesome-webfont.woff");
   }
 body{
-     font-family:fontawesome-webfont;   
+     font-family:fontawesome-webfont; 
+     margin: 0 auto;
+     width:80%;  
 }
   /* cristian */
 #intromenu {
