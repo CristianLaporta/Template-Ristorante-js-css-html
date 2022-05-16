@@ -159,7 +159,7 @@ input#menuButton:checked ~ nav {
 
 #about {
     background-color: #F6F6F6;
-    padding: 100px 0px;
+    padding: 100px 0px 30px 0px;
 }
     .aboutcont {
         text-align: center;
