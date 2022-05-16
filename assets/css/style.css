@@ -1,4 +1,11 @@
-/* cristian */
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/fontawesome-webfont.woff");
+  }
+body{
+     font-family:fontawesome-webfont;   
+}
+  /* cristian */
 #intromenu {
 	text-align: center;
 	padding: 10% 1% 25%;
