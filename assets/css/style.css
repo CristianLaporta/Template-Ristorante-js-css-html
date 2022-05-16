@@ -1,0 +1,379 @@
+/* cristian */
+#intromenu {
+	text-align: center;
+	padding: 10% 1% 25%;
+}
+
+#intromenu h3 {
+	font-size: 16px;
+	padding-bottom: 4%;
+}
+
+#intromenu p {
+	color: #9D9D9D;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+#intromenu hr {
+	width: 140px;
+	height: 1px;
+	background: #C8C1B3;
+	margin: 5% auto 5%;
+}
+
+#menu span {
+	font-size: 25px;
+	color: #ff530a;
+	font-weight: 600;
+}
+
+#menulist {
+	text-align: left;
+	padding-left: 2%;
+	padding-right: 10%;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#menulist span {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#menulist h3 {
+	padding-bottom: 6%;
+}
+
+#menulist h4 {
+	padding: 21px 0px;
+}
+
+#menulist P {
+	padding: 2px 0px;
+	color: #a3a3a3;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0px;
+}
+
+#menulist button {
+	color: #FF5F33;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #FFFFFF;
+	padding: 30px 69px;
+	border: 1px solid #FF5F33;
+}
+
+#menulist button:hover {
+	background-color: #FF5F33;
+	color: #FFFFFF;
+	border-color: #B3B3B3;
+}
+
+#menubutton {
+	text-align: right;
+	padding: 10% 0% 10%;
+}
+/* eloise */
+header {
+    background-color: white;
+    padding: 1em;
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_background {
+    background-image: url(../images/header.jpg);
+    background-position: center;
+}
+
+input#menuButton {
+    display: none;
+}
+
+input#menuButton:checked ~ nav {
+    height:200px;
+} 
+
+
+
+
+/* sebastian */
+
+#slide {
+	width:60%;
+	margin: 0 auto;
+	padding:20px;
+	box-sizing: border-box;
+ 
+ }
+ #slide_titolo_1{
+	 font-size:1.5rem;
+	 display:inline-block;
+ }
+ #slide_titolo_1 span{
+	 color:orange;
+ }
+ #slide_sotto_titolo{
+	 display:flex;
+	 justify-content:space-between;
+ }
+ #slide_arrow{
+	 margin-right: 15%;
+ }
+ #slide i{
+	 font-size:1.5rem;
+	 color:gray;
+ }
+ #slide_position{
+	 width:30%;
+	 margin: 2% 38%;
+ }
+ #slide_position i{
+	 font-size: 1rem;
+	 
+ }
+ #slide img{
+	 width:20%;
+	 margin:4px;
+ }
+
+
+
+/* salvatore */
+
+#about {
+    background-color: #F6F6F6;
+    padding: 100px 0px;
+}
+    .aboutcont {
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .aboutcont h1 {
+    padding: 40px 0px;
+    font-size: 22px;
+    color: #2E2E2E;
+    font-weight: 300;
+    
+    }
+    
+    .aboutcont h1 span {
+        color: #ff530a;
+        font-size: 28px;
+        font-weight: bold;
+        
+    }
+    .aboutcont p {
+    color: #959595;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 40px 0px;
+    }    
+    
+
+
+
+
+
+/* leo */
+#lineablog {
+    height: 1px;
+    width: 140px;
+    background-color: #c8c1b5;
+}
+#lineablog2 {
+    height: 1px;
+    width: 90px;
+    background-color: #c8c1b5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.blogcontaier {
+    width: 100%;
+    padding: 40px 0px 30px;
+}
+
+.blogimg {
+    width: 100%;
+    margin-bottom: -3px;
+    position: relative;
+    transition: 1s;
+}
+
+.blogcontent {
+    z-index: 1;
+    padding: 20px 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+}
+#blog h3 {
+    font-size: 20px;
+    padding: 0px 40px 20px;
+}
+#blog p {
+    font-size: 14px;
+    color: #959595;
+    padding: 25px 0px 0px;
+}
+#blog h1 {
+    font-size: 22px;
+}
+.blogimg:hover{
+    position: relative;
+    z-index: -1;
+    transform: scale(1.2) rotate(10deg);
+
+}
+#info {
+    background-color: #ff530a;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 28px 85px;
+    font-size: 16px;
+    border-width: 0px;
+    transition: 0.5s;
+}
+#info:hover {
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0);
+    border-color: #ff530a;
+    border-width: 1px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+/* cristian */
+
+
+
+/* eloise */
+header nav {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    transition: height 0.5s ease-out;
+}
+
+
+
+
+/* sebastian */
+
+
+
+
+
+/* salvatore */
+
+
+
+
+
+
+/* leo */
+
+	
+}
+@media screen and (min-width: 481px) {
+/* cristian */
+
+
+
+/* eloise */
+#menuMobile {
+    display: none;
+}
+
+header nav ul {
+    margin-right: 2em;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+header nav ul li a {
+    color: #2E2E2E;
+    padding: 10px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* sebastian */
+
+
+
+
+
+/* salvatore */
+
+
+
+
+
+
+/* leo */
+
+
+	
+}
+@media screen and (min-width: 767px) {
+/* cristian */
+
+
+
+/* eloise */
+
+
+
+
+
+/* sebastian */
+
+
+
+
+
+/* salvatore */
+
+
+
+
+
+
+/* leo */
+
+
+	
+}
+@media screen and (min-width: 768px) {
+
+	
+}
+@media screen and (min-width: 769px) {
+
+	
+}
