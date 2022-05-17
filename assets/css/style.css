@@ -172,7 +172,8 @@ header nav ul li {
 
 #slide {
 	
-	/*margin: 0 auto;*/
+	margin: 0 auto;
+    width:85%;
 	padding:20px;
 	box-sizing: border-box;
  
