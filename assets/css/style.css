@@ -510,11 +510,30 @@ header nav ul li a {
 #blog {
     padding-bottom: 90px;
     padding-top: 50px;
-    background: url(../images/blog/blog-bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url(../images/blog/blog-bg.jpg);
     background-size: cover;
-    filter: brightness(90%);
+    background-attachment: fixed;
+    position: relative;
+}
+#blog:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/overlay-pattern.png) #000000;
+    opacity: 0.3;
+  }
+#bloghead {
+    position: relative;
+}
+#blogbox {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #blogcontent {
     position: relative;
@@ -549,12 +568,16 @@ header nav ul li a {
     margin-top: 60px;
     padding: 28px 85px;
     font-size: 16px;
-    border-width: 0px;
+    border-width: 1px;
+    border-color: #ff530a;
     transition: 0.5s;
+    font-family: myfont;
+    position: relative;
 }
 #infobutton:hover {
     border-radius: 10px;
     background-color: rgb(0, 0, 0, 0);
+    color: #ff530a;
     border-color: #ff530a;
     border-width: 1px;
 }
@@ -565,7 +588,6 @@ header nav ul li a {
     height: 30px;
     z-index: 2;
 }
-
 /* schermo mobile */
 @media screen and (max-width: 767px) {
 /* eloise */
@@ -748,10 +770,12 @@ padding: 0%;
     #freccia {
         position: absolute;
         margin: -70px 0px 0px -50px;
-    } 
+    }  
     #infobutton {
-        padding: 28px 108px;
+        padding: 28px 102.5px;
     }
+    #blog h1 {font-size: 36px;}
+    #blog span {font-size: 45px;}
         
     }
     
