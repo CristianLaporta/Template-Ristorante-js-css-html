@@ -4,16 +4,12 @@
   } */
 
   @font-face {
-    font-family: 'fontawesome';
-    src: url('../fonts/fontawesome-webfont.eot');
-    src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/fontawesome-webfont.woff') format('woff'),
-        url('../fonts/fontawesome-webfont.ttf') format('truetype');
-}
-
+    font-family: myfont;
+    src: url(../fonts/ufonts.com_tw-cen-mt.ttf);
+  }
 
 body{
-    font-family: 'fontawesome';
+    font-family: myfont;
     font-size: 14px;
     font-weight: 400px;
      
@@ -392,6 +388,7 @@ header nav ul li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: white;
 }
 #blog h3 {
     font-size: 20px;
