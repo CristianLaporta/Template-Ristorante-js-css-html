@@ -69,7 +69,7 @@ padding-right: 10px;
 
 #menulist h4 {
 	padding: 21px 0px;
-   width: 200%;
+   width: 100%;
 }
 
 #menulist P {
@@ -101,10 +101,10 @@ padding-right: 10px;
 	padding: 10% 0% 10%;
 }
 .border-bottom {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 2px;
     width: 80%;
-    height: 1px;
+    height: 0px;
     border: 1px dotted #C9C9C9;
     position: relative;
 }
@@ -113,8 +113,8 @@ padding-right: 10px;
 }
 .pricemenu {
     position: absolute;
-padding-left: 75%;
-padding-top: 1%;
+padding-left: 70%;
+
 }
 /* eloise */
 
@@ -174,8 +174,8 @@ header nav ul li {
 	
 	margin: 0 auto;
     width:85%;
-	padding:20px;
-	box-sizing: border-box;
+	
+	
  
  }
  #slide_titolo_1{
