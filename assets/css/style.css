@@ -124,24 +124,31 @@ padding-left: 70%;
 
 .header-img {
     max-width: 100%;
+    filter: brightness(80%);
     height: auto;
+}
+
+.logo-img {
+    width: 20px;
+    height: auto;
+
 }
 
 header {
     background: rgba(255, 255, 255, 0.89);
+    padding: 1rem;
     width: 85%;
-    padding: 1em;
-    /* position: sticky; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -61px;
 }
 
 #top_area {
@@ -165,8 +172,12 @@ header nav ul li {
     margin: 0px 15px;
     font-size: 15px;
     text-transform: uppercase;
+    list-style: none;
 }
 
+header nav ul li a {
+    text-decoration: none;
+}
 
 /* sebastian */
 
