@@ -738,7 +738,19 @@ padding: 0%;
     
     
     /* salvatore */
-    
+       /* about */
+    .aboutcont h1 span { 
+        font-size: 2.9rem;
+    }
+    .aboutcont h1 {
+         font-size: 2.2rem;
+    }
+      
+    .aboutcont p {
+        margin: 0 80px;
+        padding-bottom: 100px;
+    }
+      
     
     
     
@@ -869,6 +881,31 @@ header nav ul li a {
         margin: -86px 0px 0px -50px;
     }
     /* salvatore */
+       /*about*/
+
+    .aboutcont {
+        padding: 60px 0px 120px 0px;
+    }
+    .aboutcont img {
+         height: 200px;
+         width: 200px;
+    }
+    .aboutcont h1 {
+        font-size: 3.3rem;
+        padding: 60px 0px;
+        line-height: 1.2;
+    }
+    .aboutcont h1 span { 
+        font-size: 4.3rem;
+    }
+    .aboutcont p {
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+     
+    .aboutcont hr {
+        width: 200px;
+    }
     
     }
     
