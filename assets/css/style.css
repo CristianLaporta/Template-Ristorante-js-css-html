@@ -392,7 +392,6 @@ header nav ul li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: white;
 }
 #blog h3 {
     font-size: 20px;
@@ -586,7 +585,9 @@ padding: 0%;
         position: absolute;
         margin: -70px 0px 0px -50px;
     } 
-    
+    #infobutton {
+        padding: 28px 108px;
+    }
         
     }
     
