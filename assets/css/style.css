@@ -152,7 +152,9 @@ input#menuButton:checked ~ nav {
 	 width:20%;
 	 margin:4px;
  }
-
+#slide_position #slide_dot_1{
+    color:red;
+}
 
 
 /* salvatore */
