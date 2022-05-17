@@ -10,25 +10,27 @@ body{
   /* cristian */
 #intromenu {
 	text-align: center;
-	padding: 10% 1% 25%;
+	padding: 50px 10px 100px;
 }
 
 #intromenu h3 {
 	font-size: 16px;
-	padding-bottom: 4%;
+	padding-bottom: 40px;
 }
 
 #intromenu p {
 	color: #9D9D9D;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 20px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 #intromenu hr {
 	width: 140px;
 	height: 1px;
 	background: #C8C1B3;
-	margin: 5% auto 5%;
+	margin: 10px auto 50px;
 }
 
 #menu span {
@@ -39,27 +41,28 @@ body{
 
 #menulist {
 	text-align: left;
-	padding-left: 2%;
-	padding-right: 10%;
+	padding-left: 20px;
+	padding-right: 100px;
 	font-size: 20px;
 	font-weight: 600;
 }
 
 #menulist span {
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 600px;
 }
 
 #menulist h3 {
-	padding-bottom: 6%;
+	padding-bottom: 60px;
 }
 
 #menulist h4 {
 	padding: 21px 0px;
+   width: 200%;
 }
 
 #menulist P {
-	padding: 2px 0px;
+	padding: 1px 0px 10px;
 	color: #a3a3a3;
 	font-size: 14px;
 	font-weight: 400;
@@ -86,7 +89,22 @@ body{
 	text-align: right;
 	padding: 10% 0% 10%;
 }
-
+.border-bottom {
+    margin-top: 40px;
+    margin-left: 2px;
+    width: 80%;
+    height: 1px;
+    border: 1px dotted #C9C9C9;
+    position: relative;
+}
+.titolomenu {
+    display: flex;
+}
+.pricemenu {
+    position: absolute;
+padding-left: 75%;
+padding-top: 1%;
+}
 /* eloise */
 
 #header-banner{
@@ -233,11 +251,98 @@ header nav ul li a {
     line-height: 26px;
     padding: 40px 0px;
     }    
+
+    /* news */
+
+#news {
+    padding: 100px 0px;
+    text-align: center;
+    background: url(../images/subscribe-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+    #news::before  {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/overlay-pattern.png) #000000;
+    opacity: 0.3;
+    }
+
+    .newscont {
+    padding: 0 10px;
+    margin: 0 auto;
+    }
+     
+    .newsconttwo {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }    
+
+    #news .h1news {
+    color: white;
+    position: relative;
+    padding: 40px 0;
+    font-size: 30px;
+    }
+
+    .h1news span {
+    color: #ff530a;
+    }
     
+    .newsconttwo p {
+    padding: 25px 0px;
+    color: #fff;
+    font-size: 18px;
+    }
 
+    .newscont .newsconttwo #formedit {
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+    height: 65px;
+    border-radius: 0px;
+    float: inherit;
+    }
+    
+    .newscont .newsconttwo .formbutton {
+    padding: 0px;
+    border: none;
+    background: none;
+    display: block;
+    margin-top: 20px;
+    text-align: start;
+    }
 
+    .newscont .newsconttwo .btnform {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 215px;
+    height: 65px;
+    border: none;
+    background: #7EC3BB;  
+    }
 
-
+    .newscont .newsconttwo .btnform:hover {
+    background-color: #76afaa;
+    cursor: pointer;
+    transition: .3s all;
+    }
+    
 
 /* leo */
 #lineablog {
@@ -313,8 +418,17 @@ header nav ul li a {
 
 /* cristian */
 
-
-
+.border-bottom {
+    display: none;
+}
+.pricemenu
+{
+position: relative;
+padding: 0%;
+}
+.titolomenu {
+    display: block;
+}
 /* eloise */
 header nav {
     height: 0;
@@ -345,7 +459,20 @@ header nav ul li {
 
 
 /* sebastian */
+#slide_images #slide_img_3{
+    display:none;
+}
+#slide_images #slide_img_4{
+    display:none;
+}
+#slide #slide_img_1{
+    width: 45%;
 
+}
+#slide #slide_img_2{
+    width: 45%;
+    
+}
 
 
 
@@ -364,7 +491,9 @@ header nav ul li {
 @media screen and (min-width: 769px) {
 /* cristian */
 
-
+#menulist {
+    padding-left: 10%;
+}
 
 /* eloise */
 #menuMobile {
@@ -398,7 +527,20 @@ header nav ul li a {
 
 /* sebastian */
 
+#slide_images #slide_img_3{
+    display:none;
+}
+#slide_images #slide_img_4{
+    display:none;
+}
+#slide #slide_img_1{
+    width: 45%;
 
+}
+#slide #slide_img_2{
+    width: 45%;
+    
+}
 
 
 
@@ -416,7 +558,6 @@ header nav ul li a {
 }
 @media screen and (max-width: 991px) {
 /* cristian */
-
 
 
 /* eloise */
@@ -444,8 +585,32 @@ header nav ul li a {
 	
 }
 @media screen and (min-width: 992px) {
+/*Sebastian*/
+	#slide #slide_dot_3{
+        display:none;
+    }
+    #slide #slide_dot_4{
+        display:none;
+    }
+    #slide #slide_img_3{
+        display:inline;
+        width: 24%;
+    }
+    #slide #slide_img_4{
+        display:inline;
+        width: 24%;
+    }
+    #slide #slide_img_1{
+        width: 24%;
+    
+    }
+    #slide #slide_img_2{
+        width: 24%;
+    }    
+    #slide #slide_position{
+        margin-left: 50%;
+    }    
 
-	
 }
 @media screen and (max-width: 1200px) {
 
