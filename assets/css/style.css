@@ -307,10 +307,12 @@ header nav ul li a {
     color: #ff530a;
     }
     
-    .newsconttwo p {
+    .newsconttwo .pnews {
     padding: 25px 0px;
     color: #fff;
     font-size: 18px;
+    
+    
     }
 
     .newscont .newsconttwo #formedit {
@@ -348,6 +350,77 @@ header nav ul li a {
     background-color: #76afaa;
     cursor: pointer;
     transition: .3s all;
+    }
+    
+    /* contacts */
+#contacts {
+    padding: 60px 0px;
+}
+
+    .containercont {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .containercont h1 {
+    font-weight: 500;
+    color: #2E2E2E;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    }
+
+    .containercont h1 span {
+    color: #ff530a;
+    font-weight: 600;
+    }
+
+    .h3contact {
+        padding: 20px 0;
+        
+    }
+    .h3contact span {
+    color: #FF5333;
+    }
+
+    .formcontacts
+    {
+        height: 48px;
+        width: 100%;
+        
+        display: block;
+        font-size: 14px;
+        line-height: 1.4;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+    }
+
+    .formcontgroup{
+        margin-bottom: 15px;
+        border-radius: none;
+       
+    }
+
+    #formtextarea {
+        height: 140px;
+        margin-bottom: 40px;
+        
+    }
+
+    .btnsendmessage {
+        padding: 20px 80px;
+        width: 100%;
+        background: #FF4F02;
+        color: #fff;
+        font-weight: 600;
+        height: 50px;
+        padding-top: 18px;
+        text-decoration: none;
+        border: none;
+        margin-left: 2px;
     }
     
 
