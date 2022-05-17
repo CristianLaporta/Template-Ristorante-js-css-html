@@ -235,11 +235,98 @@ header nav ul li {
     line-height: 26px;
     padding: 40px 0px;
     }    
+
+    /* news */
+
+#news {
+    padding: 100px 0px;
+    text-align: center;
+    background: url(../images/subscribe-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+    #news::before  {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/overlay-pattern.png) #000000;
+    opacity: 0.3;
+    }
+
+    .newscont {
+    padding: 0 10px;
+    margin: 0 auto;
+    }
+     
+    .newsconttwo {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }    
+
+    #news .h1news {
+    color: white;
+    position: relative;
+    padding: 40px 0;
+    font-size: 30px;
+    }
+
+    .h1news span {
+    color: #ff530a;
+    }
     
+    .newsconttwo p {
+    padding: 25px 0px;
+    color: #fff;
+    font-size: 18px;
+    }
 
+    .newscont .newsconttwo #formedit {
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+    height: 65px;
+    border-radius: 0px;
+    float: inherit;
+    }
+    
+    .newscont .newsconttwo .formbutton {
+    padding: 0px;
+    border: none;
+    background: none;
+    display: block;
+    margin-top: 20px;
+    text-align: start;
+    }
 
+    .newscont .newsconttwo .btnform {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 215px;
+    height: 65px;
+    border: none;
+    background: #7EC3BB;  
+    }
 
-
+    .newscont .newsconttwo .btnform:hover {
+    background-color: #76afaa;
+    cursor: pointer;
+    transition: .3s all;
+    }
+    
 
 /* leo */
 #lineablog {
