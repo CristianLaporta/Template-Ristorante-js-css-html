@@ -86,20 +86,40 @@ body{
 	text-align: right;
 	padding: 10% 0% 10%;
 }
+
 /* eloise */
+
+#header-banner{
+    position: relative;
+}
+
+.header-img {
+    max-width: 100%;
+    height: auto;
+}
+
 header {
-    background-color: white;
+    background: rgba(255, 255, 255, 0.89);
+    width: 85%;
     padding: 1em;
-    position: sticky;
+    /* position: sticky; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#header_background {
+#top_area {
     background-image: url(../images/header.jpg);
-    background-position: center;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 input#menuButton {
@@ -110,7 +130,13 @@ input#menuButton:checked ~ nav {
     height:200px;
 } 
 
-
+header nav ul li {
+    color: #2E2E2E;
+    padding: 10px 0px;
+    margin: 0px 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
 
 
 /* sebastian */
@@ -275,10 +301,21 @@ input#menuButton:checked ~ nav {
 header nav {
     height: 0;
     overflow: hidden;
-    position: relative;
+    position: absolutes;
     width: 100%;
     transition: height 0.5s ease-out;
 }
+
+#img-hamburger {
+    width: 26px;
+    height: 26px;
+}
+
+#img-hamburger:hover {
+    cursor: pointer;
+}
+
+
 
 
 
@@ -308,6 +345,8 @@ header nav {
 /* eloise */
 #menuMobile {
     display: none;
+    width: 22px;
+    height: 22px;
 }
 
 header nav ul {
