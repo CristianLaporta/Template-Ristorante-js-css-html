@@ -3,14 +3,15 @@ var flag=1,status=0, cursor=1;
 
 function slide_drag()
 {
-    if(window.screen.width<=767){slide_mobile();}
-    else if(window.screen.width<=1024){slide_tablet();}
-    else if(window.screen.width>1024){slide_desktop();} 
+    let width=window.innerWidth;
+    if(width<=767){slide_mobile();}
+    else if(width<=1024){slide_tablet();}
+    else if(width>1024){slide_desktop();} 
 }
 
  function slide_desktop()
  {
-    
+    console.log("Desktop!");
         if(flag==1)
         {
             document.getElementById("slide_img_1").src="assets/images/slider/slider-img-"+(flag+1)+".jpg";
@@ -18,7 +19,7 @@ function slide_drag()
             document.getElementById("slide_img_3").src="assets/images/slider/slider-img-"+(flag+3)+".jpg";
             document.getElementById("slide_img_4").src="assets/images/slider/slider-img-"+(flag)+".jpg";
             console.log(flag);
-            flag++;
+            flag=2;
             
         }
         else if (flag==2)
@@ -28,7 +29,7 @@ function slide_drag()
             document.getElementById("slide_img_3").src="assets/images/slider/slider-img-"+(flag-1)+".jpg";
             document.getElementById("slide_img_4").src="assets/images/slider/slider-img-"+(flag)+".jpg";
             
-            flag++;
+            flag=3;
         }
         else if(flag==3)
         {
@@ -37,7 +38,7 @@ function slide_drag()
             document.getElementById("slide_img_3").src="assets/images/slider/slider-img-"+(flag-1)+".jpg";
             document.getElementById("slide_img_4").src="assets/images/slider/slider-img-"+(flag)+".jpg";
             console.log(flag);
-            flag++;
+            flag=4;
     
         }
         else if(flag==4)
