@@ -12,7 +12,6 @@ body{
     font-family: myfont;
     font-size: 14px;
     font-weight: 400px;
-     
 }
   /* cristian */
 #intromenu {
@@ -120,24 +119,31 @@ padding-left: 70%;
 
 .header-img {
     max-width: 100%;
+    filter: brightness(80%);
+    height: auto;
+}
+
+.logo-img {
+    width: 20px;
     height: auto;
 }
 
 header {
     background: rgba(255, 255, 255, 0.89);
+    padding: 1rem;
+    position: sticky;
     width: 85%;
-    padding: 1em;
-    /* position: sticky; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 1;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -62px;
 }
 
 #top_area {
@@ -157,12 +163,21 @@ input#menuButton:checked ~ nav {
 
 header nav ul li {
     color: #2E2E2E;
-    padding: 10px 0px;
+    padding: 8px 0px;
     margin: 0px 15px;
     font-size: 15px;
     text-transform: uppercase;
+    list-style: none;
 }
 
+header nav ul li:hover {
+    border-bottom: 2px solid #FF5333;
+    transition: 0.3s all;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
 
 /* sebastian */
 
@@ -186,7 +201,7 @@ header nav ul li {
 	 justify-content:space-between;
  }
  #slide_arrow{
-	 margin-right: 15%;
+	 margin-right: 0%;
  }
  #slide i{
 	 font-size:1.5rem;
@@ -437,11 +452,16 @@ header nav ul li {
 header nav {
     height: 0;
     overflow: hidden;
-    position: absolutes;
+    position: sticky;
+    padding-top: 15px;
     width: 100%;
     transition: height 0.5s ease-out;
 }
 
+a:-webkit-any-link {
+    color:#2E2E2E;
+    font-size: 11px;
+}
 #img-hamburger {
     width: 26px;
     height: 26px;
@@ -460,14 +480,20 @@ header nav {
     display:none;
 }
 #slide #slide_img_1{
-    width: 45%;
+    width: 100%;
 
 }
 #slide #slide_img_2{
-    width: 45%;
+    display:none;
+    
     
 }
-
+#slide #slide_position{
+    width:80%;
+}
+#slide #slide_position i{
+    font-size:0.5rem;
+}
 
 
 
@@ -509,7 +535,7 @@ padding: 0%;
     }
     
     header nav ul {
-        margin-right: 2em;
+        text-align: right;
     }
     
     header nav ul li {
@@ -520,7 +546,7 @@ padding: 0%;
     header nav ul li a {
         color: #2E2E2E;
         padding: 10px 0px;
-        font-size: 15px;
+        font-size: 11px;
         text-transform: uppercase;
     }
     
@@ -538,13 +564,29 @@ padding: 0%;
         display:none;
     }
     #slide #slide_img_1{
-        width: 45%;
+        width: 48%;
     
     }
     #slide #slide_img_2{
-        width: 45%;
+        width: 48%;
         
     }
+    #slide #slide_position{
+        margin-left: 44%;
+    }
+    #slide #slide_position #slide_dot_5{
+        display:none;
+    }
+    #slide #slide_position #slide_dot_6{
+        display:none;
+    }
+    #slide #slide_position #slide_dot_7{
+        display:none;
+    }
+    #slide #slide_position #slide_dot_8{
+        display:none;
+    }
+    
     
     
     
@@ -595,7 +637,12 @@ padding: 0%;
     /* cristian */
     
     /* eloise */
-    
+header nav ul li a {
+    color: #2E2E2E;
+    padding: 10px 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
     /* sebastiano */
    /*  2 puntini 4 immagini */
 #slide #slide_dot_3{
@@ -606,18 +653,22 @@ padding: 0%;
 }
 #slide #slide_img_3{
     display:inline;
-    width: 24%;
+    width: 23%;
 }
 #slide #slide_img_4{
     display:inline;
-    width: 24%;
+    width: 23%;
 }
 #slide #slide_img_1{
-    width: 24%;
+    width: 23%;
 
 }
+#slide #slide_images{
+    display:flex;
+    justify-content: center;
+}
 #slide #slide_img_2{
-    width: 24%;
+    width: 23%;
 }    
 #slide #slide_position{
     margin-left: 50%;
