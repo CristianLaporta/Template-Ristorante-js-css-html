@@ -510,6 +510,11 @@ header nav ul li a {
 #blog {
     padding-bottom: 90px;
     padding-top: 50px;
+    background: url(../images/blog/blog-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: brightness(90%);
 }
 #blogcontent {
     position: relative;
