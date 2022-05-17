@@ -110,6 +110,49 @@ padding-left: 90%;
 padding-top: 67px;
 
 }
+#contactinfo {
+    padding: 20px;
+}
+#contactinfo h4{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+#contactinfo span{
+    color: #FF5F33;
+    font-size: bold;
+}
+#contactinfo .fa{
+    padding-right: 10px;
+    font-size: 20px;
+   padding-top: 30px;
+   padding-bottom: 40px;
+   color: #2E2E2E;
+}
+#contactinfo img{
+    padding-left: 10px;
+}
+.fborder {
+    background-color: #555;
+border-radius: 50%;
+padding: 30px;
+color: rgb(255, 255, 255)!important;
+font-size: 15px !important;
+}
+.fborder:hover{
+   background-color: #e95d00d5;
+}
+footer{
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    text-align: center;
+     font-size: 20px;
+}
+footer span{
+    color: #FF5F33;
+  font-size: 20px;
+}
+
 /* eloise */
 
 #header-banner{
@@ -717,6 +760,7 @@ padding: 0%;
     padding-top: 45px;
     
     }
+
     /* eloise */
 header nav ul li a {
     color: #2E2E2E;
