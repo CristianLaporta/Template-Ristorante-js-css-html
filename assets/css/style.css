@@ -36,19 +36,17 @@ padding-right: 10px;
 	width: 140px;
 	height: 1px;
 	background: #C8C1B3;
-	margin: 10px auto 50px;
+
 }
 
 #menu span {
-	font-size: 25px;
 	color: #ff530a;
-	font-weight: 600;
 }
 
 #menulist {
 	text-align: left;
-	padding-left: 20px;
-	padding-right: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -59,11 +57,11 @@ padding-right: 10px;
 }
 
 #menulist h3 {
-	padding-bottom: 60px;
+	padding-bottom: 2px;
 }
 
 #menulist h4 {
-	padding: 21px 0px;
+padding-top: 70px;
    width: 100%;
 }
 
@@ -96,9 +94,9 @@ padding-right: 10px;
 	padding: 10% 0% 10%;
 }
 .border-bottom {
-    margin-top: 50px;
-    margin-left: 2px;
-    width: 80%;
+    margin-top: 90px;
+
+    width: 89%;
     height: 0px;
     border: 1px dotted #C9C9C9;
     position: relative;
@@ -108,7 +106,8 @@ padding-right: 10px;
 }
 .pricemenu {
     position: absolute;
-padding-left: 70%;
+padding-left: 90%;
+padding-top: 45px;
 
 }
 /* eloise */
@@ -524,7 +523,7 @@ padding: 0%;
     /* cristian */
     
     #menulist {
-        padding-left: 10%;
+        padding-left: 3%;
     }
     
     /* eloise */
@@ -635,7 +634,16 @@ padding: 0%;
 @media screen and (min-width: 1024px) {
 
     /* cristian */
+    #menulist {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .pricemenu {
+        position: absolute;
+    padding-left: 55%;
+    padding-top: 45px;
     
+    }
     /* eloise */
 header nav ul li a {
     color: #2E2E2E;
@@ -717,7 +725,12 @@ header nav ul li a {
 @media screen and (min-width: 1440px) {
 
     /* cristian */
+    .pricemenu {
+        position: absolute;
+    padding-left: 57%;
+    padding-top: 45px;
     
+    }
     /* eloise */
     
     /* sebastiano */
