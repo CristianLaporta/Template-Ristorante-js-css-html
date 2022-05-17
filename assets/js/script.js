@@ -266,3 +266,208 @@ function slide_mobile()
             
 
 }
+function slide_scroll(dot_number)
+{
+    let width=window.innerWidth, s_dot="slide_dot_";
+    console.log("click!");
+    if(width<768)
+    {
+      if(dot_number==1)
+      { 
+          document.getElementById("slide_img_1").src="assets/images/slider/slider-img-1.jpg";  
+          document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
+          document.getElementById("slide_img_3").src="assets/images/slider/slider-img-3.jpg";    
+          document.getElementById("slide_img_4").src="assets/images/slider/slider-img-4.jpg";
+          document.getElementById(s_dot+dot_number).style.color="red";
+          document.getElementById(s_dot+(dot_number1)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+2)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+3)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+4)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+5)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+6)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+7)).style.color="gray";  
+      }
+      else if(dot_number==2)
+      { 
+          document.getElementById("slide_img_1").src="assets/images/slider/slider-img-2.jpg";
+          document.getElementById("slide_img_2").src="assets/images/slider/slider-img-3.jpg";
+          document.getElementById("slide_img_3").src="assets/images/slider/slider-img-4.jpg";
+          document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";
+          document.getElementById(s_dot+dot_number).style.color="red";
+          document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+2)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+3)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+4)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+5)).style.color="gray";
+          document.getElementById(s_dot+(dot_number+6)).style.color="gray";        
+      }
+      else if(dot_number==3)
+      {
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
+            document.getElementById("slide_img_3").src="assets/images/slider/slider-img-1.jpg";
+            document.getElementById("slide_img_4").src="assets/images/slider/slider-img-2.jpg";
+            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+            document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+2)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+3)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+4)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+5)).style.color="gray";        
+      }
+      else if(dot_number==4)
+      {
+        document.getElementById("slide_img_1").src="assets/images/slider/slider-img-4.jpg";
+        document.getElementById("slide_img_2").src="assets/images/slider/slider-img-1.jpg";
+        document.getElementById("slide_img_3").src="assets/images/slider/slider-img-2.jpg";
+        document.getElementById("slide_img_4").src="assets/images/slider/slider-img-3.jpg";
+        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-3)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+2)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+3)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+4)).style.color="gray";
+                        
+     }
+  
+      else if(dot_number==5)
+      {
+        document.getElementById("slide_img_1").src="assets/images/slider/slider-img-1.jpg";
+        document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
+        document.getElementById("slide_img_3").src="assets/images/slider/slider-img-3.jpg";
+        document.getElementById("slide_img_4").src="assets/images/slider/slider-img-4.jpg";
+        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-3)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-4)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+2)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+3)).style.color="gray";
+                        
+     }
+      else if(dot_number==6)
+      {
+        document.getElementById("slide_img_1").src="assets/images/slider/slider-img-2.jpg";
+        document.getElementById("slide_img_2").src="assets/images/slider/slider-img-3.jpg";
+        document.getElementById("slide_img_3").src="assets/images/slider/slider-img-4.jpg";
+        document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";        
+        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-3)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-4)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-5)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-6)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-7)).style.color="gray";
+                
+     }
+     
+
+      else if(dot_number==7)
+      {
+        document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
+        document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
+        document.getElementById("slide_img_3").src="assets/images/slider/slider-img-1.jpg";
+        document.getElementById("slide_img_4").src="assets/images/slider/slider-img-2.jpg";
+        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-3)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-4)).style.color="gray";
+        document.getElementById(s_dot+(dot_number-5)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+2)).style.color="gray";        
+     }
+     else if(dot_number==8)
+     {
+       document.getElementById("slide_img_1").src="assets/images/slider/slider-img-4.jpg";
+       document.getElementById("slide_img_2").src="assets/images/slider/slider-img-3.jpg";
+       document.getElementById("slide_img_3").src="assets/images/slider/slider-img-2.jpg";
+       document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";
+       document.getElementById(s_dot+dot_number).style.color="red";
+       document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+       document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+       document.getElementById(s_dot+(dot_number-3)).style.color="gray";
+       document.getElementById(s_dot+(dot_number-4)).style.color="gray";
+       document.getElementById(s_dot+(dot_number-5)).style.color="gray";
+       document.getElementById(s_dot+(dot_number-6)).style.color="gray";
+       document.getElementById(s_dot+(dot_number-7)).style.color="gray";
+       
+               
+    } 
+    }
+    else if(width<=1024)
+    {
+        if(dot_number==1)
+        {
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
+            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+2)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+3)).style.color="gray";
+               
+        }
+        else if(dot_number==2)
+        {
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
+            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+2)).style.color="gray";
+            
+        }
+        else if(dot_number==3)
+        {
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-1.jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
+            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+            document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+            document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+            
+        }
+        else if(dot_number==4)
+        {
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
+            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+            document.getElementById(s_dot+(dot_number-2)).style.color="gray";
+            document.getElementById(s_dot+(dot_number-3)).style.color="gray";
+            
+        }
+       
+    }
+    else if(width >=1024)
+    {
+        if(dot_number==1)
+        {    
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-1.jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
+            document.getElementById("slide_img_3").src="assets/images/slider/slider-img-3.jpg";
+            document.getElementById("slide_img_4").src="assets/images/slider/slider-img-4.jpg";
+            
+            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+            
+        }
+        else if(dot_number==2)
+        {
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-4.jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-3.jpg";
+            document.getElementById("slide_img_3").src="assets/images/slider/slider-img-2.jpg";
+            document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";
+            
+            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+(dot_number-1)).style.color="gray";
+                 
+        }
+    }       
+}
