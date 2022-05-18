@@ -298,11 +298,11 @@ header nav ul li a {
     padding: 100px 0px 30px 0px;
 }
     .aboutcont {
-        text-align: center;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     }
     
     .aboutcont h1 {
@@ -314,9 +314,9 @@ header nav ul li a {
     }
     
     .aboutcont h1 span {
-        color: #ff530a;
-        font-size: 28px;
-        font-weight: bold;
+    color: #ff530a;
+    font-size: 28px;
+    font-weight: bold;
         
     }
     .aboutcont p {
@@ -367,7 +367,7 @@ header nav ul li a {
     color: white;
     position: relative;
     padding: 40px 0;
-    font-size: 30px;
+   
     }
 
     .h1news span {
@@ -380,16 +380,6 @@ header nav ul li a {
     font-size: 18px;
     
     
-    }
-
-    .newscont .newsconttwo #formedit {
-    width: 100%;
-    background: #fff;
-    opacity: 0.9;
-    border: none;
-    height: 65px;
-    border-radius: 0px;
-    float: inherit;
     }
     
     .newscont .newsconttwo .formbutton {
@@ -629,6 +619,7 @@ header nav {
     transition: height 0.5s ease-out;
 }
 
+
 a:-webkit-any-link {
     color:#2E2E2E;
     font-size: 11px;
@@ -687,8 +678,26 @@ padding: 0%;
 #freccia {display: none;}
 
 /* salvatore */
+  /*news*/
+  .newscont .newsconttwo #formedit {
+    width: 100%;
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+    height: 63px;
+    border-radius: 0px;
+    float: inherit;
+    }
+    .newscont .newsconttwo .h1news {
 
-}
+        font-weight: 400;
+    }
+
+    #news .h1news {
+        font-size: 30px;
+    }
+
+    }
 
 /* schermo tablet */
 
@@ -773,21 +782,58 @@ padding: 0%;
     /* salvatore */
        /* about */
     .aboutcont h1 span { 
-        font-size: 2.9rem;
+    font-size: 2.9rem;
     }
     .aboutcont h1 {
-         font-size: 2.2rem;
+    font-size: 2.2rem;
     }
       
     .aboutcont p {
-        margin: 0 80px;
-        padding-bottom: 100px;
+    margin: 0 80px;
+    padding-bottom: 100px;
     }
-      
+
+    /*news*/ 
+    .newscont .newsconttwo .formgroup {
+        
+    text-align: center;
+    display: flex;
+    justify-content: center;
+        
+    }
+
+    .newscont .newsconttwo .h1news {
+        
+    font-size: 2.1rem;
+    letter-spacing: 1.5px; 
+    font-weight: 400;
     
+
+    }
+    .newscont .newsconttwo .h1news span {
+        
+    font-size: 2.9rem; 
+    font-weight: bold;  
+    font-weight: 800;
+    }
+
+    .newscont .newsconttwo #formedit {
+    height: 62.5px;
+    margin-top: 20px;
+    border-radius: none;
+    border: none;
+    width: 280px;
+    padding-right: 200px;
+    padding-left: 8px;
+    background-color: #e7e7e7;
+        
+    }
     
-    
-    
+    .newscont .newsconttwo .pnews {
+        padding: 15px
+
+    }
+
     
     /* leo */
     #bgrid {
@@ -978,6 +1024,40 @@ header nav ul li a {
     .aboutcont hr {
         width: 200px;
     }
+     /*news*/
+     .newscont .newsconttwo {
+        padding: 100px 0;
+    }
+ 
+    .newscont .newsconttwo .h1news {
+         font-size: 3.5rem;
+         font-weight: 400;
+         letter-spacing: normal;
+    }
+
+    .newscont .newsconttwo .h1news span {
+        font-size: 4.2rem;
+    }
+    .newscont .newsconttwo .pnews {
+        font-size: 1.7rem;
+        padding-top: 45px;
+    }
+    .newscont .newsconttwo #formedit {
+     
+     font-size: 1.2rem;  
+     height: 90px;
+     width: 500px;
+    }
+
+    .newscont .newsconttwo .btnform {
+    width: 315px;
+    height: 92px;
+    font-size: 1.3rem;
+    }
+    .newscont .newsconttwo hr {
+     width: 220px;
+
+}
     
     }
     
