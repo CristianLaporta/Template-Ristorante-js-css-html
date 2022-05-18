@@ -569,8 +569,7 @@
     border-color: #ff530a;
     border-width: 1px;
   }
-  #freccia,
-  #freccia2 {
+  #freccia, #freccia2 {
     transform: rotate(45deg);
     background-color: white;
     width: 30px;
@@ -642,7 +641,7 @@
   
     /* leo */
   
-    #freccia {
+    #freccia, #freccia2 {
       display: none;
     }
   
@@ -818,7 +817,6 @@
       width: 510px;
       height: 50px;
     }
-  }
   
   /* leo */
   #bgrid {
@@ -856,7 +854,7 @@
   #blog span {
     font-size: 45px;
   }
-  
+}
   /* schermo laptop piccolo*/
   @media screen and (min-width: 1024px) {
     /* cristian */
@@ -943,36 +941,36 @@
   
     /* leo */
     #bgrid {
-      height: 266px;
-      width: 470px;
-      grid-template: 100% / 235px 235px;
-      background-color: white;
-      z-index: 2;
-      overflow: hidden;
+        height: 266px;
+        width: 470px;
+        grid-template: 100% / 235px 235px;
+        background-color: white;
+        z-index: 2;
+        overflow: hidden;
     }
     #blogcontent {
-      padding: 40px 35px 23px;
+        padding: 40px 35px 23px;
     }
     #blogimg img {
-      width: 290px;
+        width: 290px;
     }
     #blogcontainer {
-      width: 940px;
-      display: grid;
-      grid-template-rows: auto;
-      grid-template-columns: 470px 470px;
+        width: 940px;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 470px 470px;
     }
     #blogimg {
-      height: 217px;
-      width: 290px;
+        height: 217px;
+        width: 290px;
     }
     #freccia2 {
-      position: absolute;
-      margin: -86px 0px 0px 186px;
+        position: absolute;
+        margin: -86px 0px 0px 186px;
     }
     #freccia {
-      position: absolute;
-      margin: -86px 0px 0px -50px;
+        position: absolute;
+        margin: -86px 0px 0px -50px;
     }
     /* salvatore */
     /*about*/
