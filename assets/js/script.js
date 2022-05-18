@@ -323,7 +323,7 @@ function slide_scroll(dot_number)
         document.getElementById("slide_img_2").src="assets/images/slider/slider-img-1.jpg";
         document.getElementById("slide_img_3").src="assets/images/slider/slider-img-2.jpg";
         document.getElementById("slide_img_4").src="assets/images/slider/slider-img-3.jpg";
-        document.getElementById(s_dot+dot_number).style.color="r#ff530aed";
+        document.getElementById(s_dot+dot_number).style.color="#ff530aed";
         document.getElementById(s_dot+(dot_number-1)).style.color="gray";
         document.getElementById(s_dot+(dot_number-2)).style.color="gray";
         document.getElementById(s_dot+(dot_number-3)).style.color="gray";
@@ -362,8 +362,8 @@ function slide_scroll(dot_number)
         document.getElementById(s_dot+(dot_number-3)).style.color="gray";
         document.getElementById(s_dot+(dot_number-4)).style.color="gray";
         document.getElementById(s_dot+(dot_number-5)).style.color="gray";
-        document.getElementById(s_dot+(dot_number-6)).style.color="gray";
-        document.getElementById(s_dot+(dot_number-7)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+1)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+2)).style.color="gray";
                 
      }
      
@@ -380,8 +380,8 @@ function slide_scroll(dot_number)
         document.getElementById(s_dot+(dot_number-3)).style.color="gray";
         document.getElementById(s_dot+(dot_number-4)).style.color="gray";
         document.getElementById(s_dot+(dot_number-5)).style.color="gray";
-        document.getElementById(s_dot+(dot_number+1)).style.color="gray";
-        document.getElementById(s_dot+(dot_number+2)).style.color="gray";        
+        document.getElementById(s_dot+(dot_number-6)).style.color="gray";
+        document.getElementById(s_dot+(dot_number+1)).style.color="gray";        
      }
      else if(dot_number==8)
      {
@@ -405,8 +405,8 @@ function slide_scroll(dot_number)
     {
         if(dot_number==1)
         {
-            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
-            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-"+dot_number+".jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-"+(dot_number+1)+".jpg";
             document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
             document.getElementById(s_dot+(dot_number+2)).style.color="gray";
@@ -415,9 +415,8 @@ function slide_scroll(dot_number)
         }
         else if(dot_number==2)
         {
-            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
-            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
-            document.getElementById(s_dot+dot_number).style.color="#ff530a";
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-"+(dot_number)+".jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-"+(dot_number-1)+".jpg";document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
             document.getElementById(s_dot+(dot_number+2)).style.color="gray";
@@ -425,9 +424,8 @@ function slide_scroll(dot_number)
         }
         else if(dot_number==3)
         {
-            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-1.jpg";
-            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
-            document.getElementById(s_dot+dot_number).style.color="#ff530a";
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-"+(dot_number)+".jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-"+(dot_number-1)+".jpg";document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
             document.getElementById(s_dot+(dot_number-2)).style.color="gray";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
@@ -435,8 +433,8 @@ function slide_scroll(dot_number)
         }
         else if(dot_number==4)
         {
-            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
-            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
+            document.getElementById("slide_img_1").src="assets/images/slider/slider-img-"+(dot_number)+".jpg";
+            document.getElementById("slide_img_2").src="assets/images/slider/slider-img-"+(dot_number-1)+".jpg";
             document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
             document.getElementById(s_dot+(dot_number-2)).style.color="gray";
