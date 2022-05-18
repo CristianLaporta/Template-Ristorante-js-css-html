@@ -8,148 +8,8 @@ body{
     font-size: 14px;
     font-weight: 400px;
 }
-  /* cristian */
-#intromenu {
-	text-align: center;
-	padding: 50px 10px 100px;
-}
 
-#intromenu h3 {
-	font-size: 16px;
-	padding-bottom: 40px;
-}
-
-#intromenu p {
-	color: #9D9D9D;
-	font-size: 16px;
-	line-height: 20px;
-padding-left: 10px;
-padding-right: 10px;
-}
-
-#intromenu hr {
-	width: 140px;
-	height: 1px;
-	background: #C8C1B3;
-
-}
-
-#menu span {
-	color: #ff530a;
-}
-
-#menulist {
-	text-align: left;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-size: 20px;
-	font-weight: 600;
-}
-
-#menulist span {
-	font-size: 20px;
-	font-weight: 600px;
-}
-
-#menulist h3 {
-	padding-bottom: 2px;
-}
-
-#menulist h4 {
-padding-top: 70px;
-   width: 100%;
-}
-
-#menulist P {
-	padding: 1px 0px 10px;
-	color: #a3a3a3;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
-	margin: 0px;
-}
-
-#menulist button {
-	color: #FF5F33;
-	text-decoration: none;
-	font-size: 18px;
-	background-color: #FFFFFF;
-	padding: 30px 69px;
-	border: 1px solid #FF5F33;
-}
-
-#menulist button:hover {
-	background-color: #FF5F33;
-	color: #FFFFFF;
-	border-color: #B3B3B3;
-}
-
-#menubutton {
-	text-align: right;
-	padding: 10% 0% 10%;
-}
-.border-bottom {
-    margin-top: 90px;
-
-    width: 89%;
-    height: 0px;
-    border: 1px dotted #C9C9C9;
-    position: relative;
-}
-.titolomenu {
-    display: flex;
-}
-.pricemenu {
-    position: absolute;
-padding-left: 90%;
-padding-top: 67px;
-
-}
-#contactinfo {
-    padding: 20px;
-}
-#contactinfo h4{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: 20px;
-}
-#contactinfo span{
-    color: #FF5F33;
-    font-size: bold;
-}
-#contactinfo .fa{
-    padding-right: 24px;
-
-   padding-top: 20px;
-   padding-bottom: 22px;
-   color: #2E2E2E;
-}
-#contactinfo img{
-    padding-left: 10px;
-}
-.fborder {
-    background-color: rgb(185, 185, 185);
-border-radius: 50%;
-padding: 20px;
-color: rgb(255, 255, 255)!important;
-font-size: 15px !important;
-}
-.fborder:hover{
-   background-color: #ff6600d5;
-}
-footer{
-    background-color: rgb(199, 199, 199);
-    color: #454545;
-    padding: 10px;
-    text-align: center;
-     font-size: 20px;
-}
-footer span{
-    color: #FF5F33;
-  font-size: 20px;
-}
-
-/* eloise */
+/* header*/
 #header-banner{
     position: relative;
     padding-bottom: 50px;
@@ -249,15 +109,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* sebastian */
-
+/* slide-show */
 #slide {
-	
 	margin: 0 auto;
     width:85%;
-	
-	
- 
  }
  #slide_titolo_1{
 	 font-size:1.5rem;
@@ -292,12 +147,10 @@ header nav ul li a {
      cursor: pointer;
  }
 #slide_position #slide_dot_1{
-    color:red;
+    color: #ff530a;
 }
 
-
-/* salvatore */
-
+/* About */
 #about {
     background-color: #F6F6F6;
     padding: 100px 0px 30px 0px;
@@ -315,7 +168,6 @@ header nav ul li a {
     font-size: 22px;
     color: #2E2E2E;
     font-weight: 300;
-    
     }
     
     .aboutcont h1 span {
@@ -331,153 +183,7 @@ header nav ul li a {
     padding: 40px 0px;
     }    
 
-    /* news */
-
-#news {
-    padding: 100px 0px;
-    text-align: center;
-    background: url(../images/subscribe-bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-}
-
-    #news::before  {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: url(../images/overlay-pattern.png) #000000;
-    opacity: 0.3;
-    }
-
-    .newscont {
-    padding: 0 10px;
-    margin: 0 auto;
-    }
-     
-    .newsconttwo {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-    }    
-
-    #news .h1news {
-    color: white;
-    position: relative;
-    padding: 40px 0;
-   
-    }
-
-    .h1news span {
-    color: #ff530a;
-    }
-    
-    .newsconttwo .pnews {
-    padding: 25px 0px;
-    color: #fff;
-    font-size: 18px;
-    
-    
-    }
-    
-    .newscont .newsconttwo .formbutton {
-    padding: 0px;
-    border: none;
-    background: none;
-    display: block;
-    margin-top: 20px;
-    text-align: start;
-    }
-
-    .newscont .newsconttwo .btnform {
-    color: #fff;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    width: 215px;
-    height: 65px;
-    border: none;
-    background: #7EC3BB;  
-    }
-
-    .newscont .newsconttwo .btnform:hover {
-    background-color: #76afaa;
-    cursor: pointer;
-    transition: .3s all;
-    }
-    
-    /* contacts */
-   #contacts {
-    padding: 60px 0px;
-    }
-
-    .containercont {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    }
-
-    .containercont h1 {
-    font-weight: 500;
-    color: #2E2E2E;
-    padding: 40px 0px;
-    position: relative;
-    text-align: center;
-    }
-
-    .containercont h1 span {
-    color: #ff530a;
-    font-weight: 600;
-    }
-
-    .h3contact {
-        padding: 20px 0;
-        font-size: 1.2rem;
-    }
-    .h3contact span {
-    color: #FF5333;
-    
-    }
-
-    .formcontacts
-    {
-        height: 46px;
-        width: 100%;
-        padding-left: 10px;
-        display: block;
-        font-size: 12px;
-        line-height: 1.4;
-        color: #555;
-        background-color: #fff;
-        border: 1px solid #ccc;
-    }
-
-    .formcontgroup{
-        margin-bottom: 15px;
-        border-radius: none;
-        margin-right: 15px;
-       
-    }
-
-    #formtextarea {
-        height: 140px;
-        margin-bottom: 40px;
-        padding-top: 7px;
-        
-    }
-
-   
-
-/* leo */
+/* Blog */
 #lineablog {
     height: 1px;
     width: 140px;
@@ -599,9 +305,295 @@ header nav ul li a {
     height: 30px;
     z-index: 2;
 }
+/* Menu */
+#intromenu {
+	text-align: center;
+	padding: 50px 10px 100px;
+}
+
+#intromenu h3 {
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+
+#intromenu p {
+	color: #9D9D9D;
+	font-size: 16px;
+	line-height: 20px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#intromenu hr {
+	width: 140px;
+	height: 1px;
+	background: #C8C1B3;
+
+}
+
+#menu span {
+	color: #ff530a;
+}
+
+#menulist {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#menulist span {
+	font-size: 20px;
+	font-weight: 600px;
+}
+
+#menulist h3 {
+	padding-bottom: 2px;
+}
+
+#menulist h4 {
+padding-top: 70px;
+   width: 100%;
+}
+
+#menulist P {
+	padding: 1px 0px 10px;
+	color: #a3a3a3;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0px;
+}
+
+#menulist button {
+	color: #FF5F33;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #FFFFFF;
+	padding: 30px 69px;
+	border: 1px solid #FF5F33;
+}
+
+#menulist button:hover {
+	background-color: #FF5F33;
+	color: #FFFFFF;
+	border-color: #B3B3B3;
+}
+
+#menubutton {
+	text-align: right;
+	padding: 10% 0% 10%;
+}
+.border-bottom {
+    margin-top: 90px;
+
+    width: 89%;
+    height: 0px;
+    border: 1px dotted #C9C9C9;
+    position: relative;
+}
+.titolomenu {
+    display: flex;
+}
+.pricemenu {
+    position: absolute;
+padding-left: 90%;
+padding-top: 67px;
+
+}
+/* news */
+
+#news {
+    padding: 100px 0px;
+    text-align: center;
+    background: url(../images/subscribe-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+    #news::before  {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/overlay-pattern.png) #000000;
+    opacity: 0.3;
+    }
+
+    .newscont {
+    padding: 0 10px;
+    margin: 0 auto;
+    }
+        
+    .newsconttwo {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }    
+
+    #news .h1news {
+    color: white;
+    position: relative;
+    padding: 40px 0;
+    
+    }
+
+    .h1news span {
+    color: #ff530a;
+    }
+    
+    .newsconttwo .pnews {
+    padding: 25px 0px;
+    color: #fff;
+    font-size: 18px;
+    
+    
+    }
+    
+    .newscont .newsconttwo .formbutton {
+    padding: 0px;
+    border: none;
+    background: none;
+    display: block;
+    margin-top: 20px;
+    text-align: start;
+    }
+
+    .newscont .newsconttwo .btnform {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 215px;
+    height: 65px;
+    border: none;
+    background: #7EC3BB;  
+    }
+
+    .newscont .newsconttwo .btnform:hover {
+    background-color: #76afaa;
+    cursor: pointer;
+    transition: .3s all;
+    }
+    
+    /* contacts */
+    #contacts {
+    padding: 60px 0px;
+    }
+
+    .containercont {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .containercont h1 {
+    font-weight: 500;
+    color: #2E2E2E;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    }
+
+    .containercont h1 span {
+    color: #ff530a;
+    font-weight: 600;
+    }
+
+    .h3contact {
+        padding: 20px 0;
+        font-size: 1.2rem;
+    }
+    .h3contact span {
+    color: #FF5333;
+    
+    }
+
+    .formcontacts
+    {
+        height: 46px;
+        width: 100%;
+        padding-left: 10px;
+        display: block;
+        font-size: 12px;
+        line-height: 1.4;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+    }
+
+    .formcontgroup{
+        margin-bottom: 15px;
+        border-radius: none;
+        margin-right: 15px;
+        
+    }
+
+    #formtextarea {
+        height: 140px;
+        margin-bottom: 40px;
+        padding-top: 7px;
+        
+    }
+
+/*footer*/
+
+#contactinfo {
+    padding: 20px;
+}
+#contactinfo h4{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+#contactinfo span{
+    color: #FF5F33;
+    font-size: bold;
+}
+#contactinfo .fa{
+    padding-right: 24px;
+
+   padding-top: 20px;
+   padding-bottom: 22px;
+   color: #2E2E2E;
+}
+#contactinfo img{
+    padding-left: 10px;
+}
+.fborder {
+    background-color: rgb(185, 185, 185);
+border-radius: 50%;
+padding: 20px;
+color: rgb(255, 255, 255)!important;
+font-size: 15px !important;
+}
+.fborder:hover{
+   background-color: #ff6600d5;
+}
+footer{
+    background-color: rgb(199, 199, 199);
+    color: #454545;
+    padding: 10px;
+    text-align: center;
+     font-size: 20px;
+}
+footer span{
+    color: #FF5F33;
+  font-size: 20px;
+}
 /* schermo mobile */
 @media screen and (max-width: 767px) {
-/* eloise */
+/* header */
 header nav {
     height: 0;
     overflow: hidden;
@@ -614,7 +606,6 @@ header nav {
     left: 0;
     transition: height 0.2s ease-out;
 }
-
 
 a:-webkit-any-link {
     color:#2E2E2E;
@@ -630,8 +621,7 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 
-/* sebastiano */
-/* 8 puntini 1 immagine */
+/* slide-show */
 #slide_images #slide_img_3{
     display:none;
 }
@@ -640,12 +630,9 @@ a:-webkit-any-link {
 }
 #slide #slide_img_1{
     width: 100%;
-
 }
 #slide #slide_img_2{
     display:none;
-    
-    
 }
 #slide #slide_position{
     width:70%;
@@ -654,9 +641,7 @@ a:-webkit-any-link {
     font-size:0.5rem;
 }
 
-
-
-/* cristian */
+/* menu */
 .border-bottom {
     display: none;
 }
@@ -668,9 +653,7 @@ padding: 0%;
 .titolomenu {
     display: block;
 }
-
 /* leo */
-
 #freccia {display: none;}
 
 /* salvatore */
@@ -931,7 +914,6 @@ padding: 0%;
     margin-left: 0%;
 }
 #contactinfo .fa {
-
     padding-top: 5px;
     padding-bottom: 27px;
   
@@ -947,7 +929,6 @@ padding-bottom: 3%;
 }
 #contactinfo .fa{
     padding-right: 24px;
-
    padding-top: 20px;
    padding-bottom: 22px;
 
@@ -964,8 +945,7 @@ header nav ul li a {
     font-size: 15px;
     text-transform: uppercase;
 }
-    /* sebastiano */
-   /*  2 puntini 4 immagini */
+    /* slide-show */
 #slide #slide_dot_3{
     display:none;
 }
@@ -995,8 +975,6 @@ header nav ul li a {
     margin-left: 50%;
 }    
 
-
-   
     /* leo */
     #bgrid {
         height: 266px;
@@ -1030,8 +1008,7 @@ header nav ul li a {
         position: absolute;
         margin: -86px 0px 0px -50px;
     }
-    /* salvatore */
-       /*about*/
+    /*about*/
 
     .aboutcont {
         padding: 60px 0px 120px 0px;
@@ -1122,7 +1099,6 @@ header nav ul li a {
    width: 800px;
    font-size: 1.2rem;
    cursor: pointer;
-    
 }
 
 }   
@@ -1136,17 +1112,8 @@ header nav ul li a {
     padding-top: 45px;
     
     }
-    /* eloise */
     
-    /* sebastiano */
-   /*  2 puntini 4 immagini */
-
-   
-    /* leo */
-    
-    /* salvatore */
-    
-    }
+}
 
 /* sezione leo 1200px */
 
@@ -1187,16 +1154,4 @@ header nav ul li a {
     #infobutton {
         margin-top: 0px;
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-

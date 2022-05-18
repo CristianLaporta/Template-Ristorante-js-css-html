@@ -363,11 +363,8 @@ function slide_scroll(dot_number)
         document.getElementById(s_dot+(dot_number-4)).style.color="gray";
         document.getElementById(s_dot+(dot_number-5)).style.color="gray";
         document.getElementById(s_dot+(dot_number+1)).style.color="gray";
-        document.getElementById(s_dot+(dot_number+2)).style.color="gray";
-                
+        document.getElementById(s_dot+(dot_number+2)).style.color="gray";        
      }
-     
-
       else if(dot_number==7)
       {
         document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
@@ -396,9 +393,7 @@ function slide_scroll(dot_number)
        document.getElementById(s_dot+(dot_number-4)).style.color="gray";
        document.getElementById(s_dot+(dot_number-5)).style.color="gray";
        document.getElementById(s_dot+(dot_number-6)).style.color="gray";
-       document.getElementById(s_dot+(dot_number-7)).style.color="gray";
-       
-               
+       document.getElementById(s_dot+(dot_number-7)).style.color="gray";        
     } 
     }
     else if(width<=1024)
