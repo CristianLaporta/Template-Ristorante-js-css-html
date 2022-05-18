@@ -415,9 +415,9 @@ header nav ul li a {
     }
     
     /* contacts */
-#contacts {
+   #contacts {
     padding: 60px 0px;
-}
+    }
 
     .containercont {
     padding-right: 15px;
@@ -441,19 +441,20 @@ header nav ul li a {
 
     .h3contact {
         padding: 20px 0;
-        
+        font-size: 1.2rem;
     }
     .h3contact span {
     color: #FF5333;
+    
     }
 
     .formcontacts
     {
-        height: 48px;
+        height: 46px;
         width: 100%;
-        
+        padding-left: 10px;
         display: block;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.4;
         color: #555;
         background-color: #fff;
@@ -463,28 +464,18 @@ header nav ul li a {
     .formcontgroup{
         margin-bottom: 15px;
         border-radius: none;
+        margin-right: 15px;
        
     }
 
     #formtextarea {
         height: 140px;
         margin-bottom: 40px;
+        padding-top: 7px;
         
     }
 
-    .btnsendmessage {
-        padding: 20px 80px;
-        width: 100%;
-        background: #FF4F02;
-        color: #fff;
-        font-weight: 600;
-        height: 50px;
-        padding-top: 18px;
-        text-decoration: none;
-        border: none;
-        margin-left: 2px;
-    }
-    
+   
 
 /* leo */
 #lineablog {
@@ -703,6 +694,19 @@ padding: 0%;
     }
 
     }
+/* contacts  */
+.btnsendmessage {
+    padding: 20px 80px;
+    width: 100%;
+    background: #FF4F02;
+    color: #fff;
+    font-weight: 600;
+    height: 50px;
+    padding-top: 18px;
+    text-decoration: none;
+    border: none;
+}
+
 
 /* schermo tablet */
 
@@ -838,7 +842,34 @@ padding: 0%;
         padding: 15px
 
     }
+        /* contacts */
+        #contacts {
+          text-align: center;
+        }
+        #contacts .containercont h1 {
+            font-size: 2.8rem;
 
+        }
+        #contacts .h3contact {
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: left;
+        }
+        .formcontgroup {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .btnsendmessage {
+            padding: 15px 80px;
+            float: center;
+            color: #fff;
+            font-weight: 600;
+            width: 510px;
+            height: 50px;
+                }
+            
+        }
+      
     
     /* leo */
     #bgrid {
@@ -872,8 +903,6 @@ padding: 0%;
     }
     #blog h1 {font-size: 36px;}
     #blog span {font-size: 45px;}
-        
-    }
     
     
 /* schermo laptop piccolo*/
@@ -923,9 +952,7 @@ padding-bottom: 3%;
    padding-bottom: 22px;
 
 }
-#contacts {
-    padding: 5% 20% 5%;
-}
+
 .newsconttwo {
     padding: 0% 30% 0%;
 }
@@ -1066,9 +1093,39 @@ header nav ul li a {
      width: 220px;
 
 }
+
+/* contacts */
+#contacts {
+    padding: 2% 10%;
+}
+
+#contacts .containercont h1 {
+    font-size: 4rem;
+}
+
+#contacts .h3contact {
+    font-size: 2rem;
+}
+
+.formcontacts {
+    height: 76px;
+    font-size: 1.2rem;
+    color: #00000035;
+}
+#formtextarea {
+    height: 170px;
+}
+#contacts .btnsendmessage {
+   float: right;
+   margin-right: 33px;
+   height: 80px;
+   width: 800px;
+   font-size: 1.2rem;
+   cursor: pointer;
     
-    }
-    
+}
+
+}   
 /* schermo laptop grande*/
 @media screen and (min-width: 1440px) {
 
