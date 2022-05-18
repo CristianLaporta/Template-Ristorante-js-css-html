@@ -1,8 +1,3 @@
-/* @font-face {
-    font-family: myfont;
-    src: url(../fonts/fontawesome-webfont.ttf);
-  } */
-
   @font-face {
     font-family: myfont;
     src: url(../fonts/ufonts.com_tw-cen-mt.ttf);
@@ -673,6 +668,14 @@ padding: 0%;
     #menulist {
         padding-left: 3%;
     }
+    .contact{
+        display: flex;
+    }
+    .infocontacts{
+        margin: 20px;
+        margin-bottom: 100px;
+        margin-left: 5%;
+    }
 
     /* eloise */
     #menuMobile {
@@ -806,6 +809,24 @@ padding: 0%;
     padding-top: 45px;
     
     }
+#contactinfo {
+	display: flex;
+}
+.contact{
+    display: inline;
+}
+.infocontacts{
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-left: 0%;
+}
+#contactinfo h4{
+display: block;
+
+}
+.blogfooter, .galleryfooter {
+    margin-left: 10%;
+}
 
     /* eloise */
 header nav ul li a {
