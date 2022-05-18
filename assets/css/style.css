@@ -110,7 +110,7 @@ padding-top: 67px;
 }
 #contactinfo h4{
     padding-top: 10px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     font-size: 20px;
 }
 #contactinfo span{
@@ -118,27 +118,28 @@ padding-top: 67px;
     font-size: bold;
 }
 #contactinfo .fa{
-    padding-right: 10px;
-    font-size: 20px;
-   padding-top: 30px;
-   padding-bottom: 40px;
+    padding-right: 24px;
+
+   padding-top: 20px;
+   padding-bottom: 22px;
    color: #2E2E2E;
 }
 #contactinfo img{
     padding-left: 10px;
 }
 .fborder {
-    background-color: #555;
+    background-color: rgb(185, 185, 185);
 border-radius: 50%;
-padding: 30px;
+padding: 20px;
 color: rgb(255, 255, 255)!important;
 font-size: 15px !important;
 }
 .fborder:hover{
-   background-color: #e95d00d5;
+   background-color: #ff6600d5;
 }
 footer{
     background-color: rgb(199, 199, 199);
+    color: #454545;
     padding: 10px;
     text-align: center;
      font-size: 20px;
@@ -849,12 +850,27 @@ padding: 0%;
     margin-bottom: 0px;
     margin-left: 0%;
 }
-#contactinfo h4{
-display: block;
+#contactinfo .fa {
 
+    padding-top: 5px;
+    padding-bottom: 27px;
+  
+}
+#contactinfo {
+padding: 15%;
+padding-top: 3%;
+padding-bottom: 3%;
+  
 }
 .blogfooter, .galleryfooter {
     margin-left: 10%;
+}
+#contactinfo .fa{
+    padding-right: 24px;
+
+   padding-top: 20px;
+   padding-bottom: 22px;
+
 }
 
     /* eloise */
