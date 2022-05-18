@@ -1036,14 +1036,17 @@ header nav ul li a {
          font-size: 3.5rem;
          font-weight: 400;
          letter-spacing: normal;
+         margin-bottom: 30px;
+         
     }
 
     .newscont .newsconttwo .h1news span {
         font-size: 4.2rem;
+        
     }
     .newscont .newsconttwo .pnews {
         font-size: 1.7rem;
-        padding-top: 45px;
+        padding-top: 35px;
     }
     .newscont .newsconttwo #formedit {
      
