@@ -51,11 +51,11 @@ function slide_drag()
             if (status==0){
                 
                 document.getElementById("slide_dot_1").style.color="gray";
-                document.getElementById("slide_dot_2").style.color="red";
+                document.getElementById("slide_dot_2").style.color="#ff530a";
                 status=1;
             }
             else if(status==1){
-                document.getElementById("slide_dot_1").style.color="red";
+                document.getElementById("slide_dot_1").style.color="#ff530a";
                 document.getElementById("slide_dot_2").style.color="gray";
                 status=0;
             }
@@ -72,7 +72,7 @@ function slide_tablet()
          
             if(cursor==1)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor+1)).style.color="gray";
                 document.getElementById(s_dot+(cursor+2)).style.color="gray";
                 document.getElementById(s_dot+(cursor+3)).style.color="gray";
@@ -80,7 +80,7 @@ function slide_tablet()
             }
             else if(cursor==2)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor+1)).style.color="gray";
                 document.getElementById(s_dot+(cursor+2)).style.color="gray";
@@ -89,7 +89,7 @@ function slide_tablet()
             }
             else if(cursor==3)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor+1)).style.color="gray";
@@ -99,7 +99,7 @@ function slide_tablet()
 
             else if(cursor==4)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor-3)).style.color="gray";
@@ -141,7 +141,7 @@ function slide_mobile()
             let s_dot="slide_dot_";
             console.log("risoluzione<767!"+cursor)
             if(cursor==1){
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor+1)).style.color="gray";
                 document.getElementById(s_dot+(cursor+2)).style.color="gray";
                 document.getElementById(s_dot+(cursor+3)).style.color="gray";
@@ -153,7 +153,7 @@ function slide_mobile()
             }
             else if(cursor==2)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor+1)).style.color="gray";
                 document.getElementById(s_dot+(cursor+2)).style.color="gray";
@@ -167,7 +167,7 @@ function slide_mobile()
             }
             else if(cursor==3)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor+1)).style.color="gray";
@@ -182,7 +182,7 @@ function slide_mobile()
 
             else if(cursor==4)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor-3)).style.color="gray";
@@ -197,7 +197,7 @@ function slide_mobile()
             }
             else if(cursor==5)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor-3)).style.color="gray";
@@ -212,7 +212,7 @@ function slide_mobile()
             }
             else if(cursor==6)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor-3)).style.color="gray";
@@ -227,7 +227,7 @@ function slide_mobile()
             }
             else if(cursor==7)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor-3)).style.color="gray";
@@ -242,7 +242,7 @@ function slide_mobile()
             }
             else if(cursor==8)
             {
-                document.getElementById(s_dot+cursor).style.color="red";
+                document.getElementById(s_dot+cursor).style.color="#ff530a";
                 document.getElementById(s_dot+(cursor-1)).style.color="gray";
                 document.getElementById(s_dot+(cursor-2)).style.color="gray";
                 document.getElementById(s_dot+(cursor-3)).style.color="gray";
@@ -278,7 +278,7 @@ function slide_scroll(dot_number)
           document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
           document.getElementById("slide_img_3").src="assets/images/slider/slider-img-3.jpg";    
           document.getElementById("slide_img_4").src="assets/images/slider/slider-img-4.jpg";
-          document.getElementById(s_dot+dot_number).style.color="red";
+          document.getElementById(s_dot+dot_number).style.color="#ff530a";
           document.getElementById(s_dot+(dot_number1)).style.color="gray";
           document.getElementById(s_dot+(dot_number+2)).style.color="gray";
           document.getElementById(s_dot+(dot_number+3)).style.color="gray";
@@ -293,7 +293,7 @@ function slide_scroll(dot_number)
           document.getElementById("slide_img_2").src="assets/images/slider/slider-img-3.jpg";
           document.getElementById("slide_img_3").src="assets/images/slider/slider-img-4.jpg";
           document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";
-          document.getElementById(s_dot+dot_number).style.color="red";
+          document.getElementById(s_dot+dot_number).style.color="#ff530a";
           document.getElementById(s_dot+(dot_number-1)).style.color="gray";
           document.getElementById(s_dot+(dot_number+1)).style.color="gray";
           document.getElementById(s_dot+(dot_number+2)).style.color="gray";
@@ -308,7 +308,7 @@ function slide_scroll(dot_number)
             document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
             document.getElementById("slide_img_3").src="assets/images/slider/slider-img-1.jpg";
             document.getElementById("slide_img_4").src="assets/images/slider/slider-img-2.jpg";
-            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
             document.getElementById(s_dot+(dot_number-2)).style.color="gray";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
@@ -323,7 +323,7 @@ function slide_scroll(dot_number)
         document.getElementById("slide_img_2").src="assets/images/slider/slider-img-1.jpg";
         document.getElementById("slide_img_3").src="assets/images/slider/slider-img-2.jpg";
         document.getElementById("slide_img_4").src="assets/images/slider/slider-img-3.jpg";
-        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+dot_number).style.color="r#ff530aed";
         document.getElementById(s_dot+(dot_number-1)).style.color="gray";
         document.getElementById(s_dot+(dot_number-2)).style.color="gray";
         document.getElementById(s_dot+(dot_number-3)).style.color="gray";
@@ -340,7 +340,7 @@ function slide_scroll(dot_number)
         document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
         document.getElementById("slide_img_3").src="assets/images/slider/slider-img-3.jpg";
         document.getElementById("slide_img_4").src="assets/images/slider/slider-img-4.jpg";
-        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+dot_number).style.color="#ff530a";
         document.getElementById(s_dot+(dot_number-1)).style.color="gray";
         document.getElementById(s_dot+(dot_number-2)).style.color="gray";
         document.getElementById(s_dot+(dot_number-3)).style.color="gray";
@@ -356,7 +356,7 @@ function slide_scroll(dot_number)
         document.getElementById("slide_img_2").src="assets/images/slider/slider-img-3.jpg";
         document.getElementById("slide_img_3").src="assets/images/slider/slider-img-4.jpg";
         document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";        
-        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+dot_number).style.color="#ff530a";
         document.getElementById(s_dot+(dot_number-1)).style.color="gray";
         document.getElementById(s_dot+(dot_number-2)).style.color="gray";
         document.getElementById(s_dot+(dot_number-3)).style.color="gray";
@@ -374,7 +374,7 @@ function slide_scroll(dot_number)
         document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
         document.getElementById("slide_img_3").src="assets/images/slider/slider-img-1.jpg";
         document.getElementById("slide_img_4").src="assets/images/slider/slider-img-2.jpg";
-        document.getElementById(s_dot+dot_number).style.color="red";
+        document.getElementById(s_dot+dot_number).style.color="#ff530a";
         document.getElementById(s_dot+(dot_number-1)).style.color="gray";
         document.getElementById(s_dot+(dot_number-2)).style.color="gray";
         document.getElementById(s_dot+(dot_number-3)).style.color="gray";
@@ -389,7 +389,7 @@ function slide_scroll(dot_number)
        document.getElementById("slide_img_2").src="assets/images/slider/slider-img-3.jpg";
        document.getElementById("slide_img_3").src="assets/images/slider/slider-img-2.jpg";
        document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";
-       document.getElementById(s_dot+dot_number).style.color="red";
+       document.getElementById(s_dot+dot_number).style.color="#ff530a";
        document.getElementById(s_dot+(dot_number-1)).style.color="gray";
        document.getElementById(s_dot+(dot_number-2)).style.color="gray";
        document.getElementById(s_dot+(dot_number-3)).style.color="gray";
@@ -407,7 +407,7 @@ function slide_scroll(dot_number)
         {
             document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
             document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
-            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
             document.getElementById(s_dot+(dot_number+2)).style.color="gray";
             document.getElementById(s_dot+(dot_number+3)).style.color="gray";
@@ -417,7 +417,7 @@ function slide_scroll(dot_number)
         {
             document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
             document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
-            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
             document.getElementById(s_dot+(dot_number+2)).style.color="gray";
@@ -427,7 +427,7 @@ function slide_scroll(dot_number)
         {
             document.getElementById("slide_img_1").src="assets/images/slider/slider-img-1.jpg";
             document.getElementById("slide_img_2").src="assets/images/slider/slider-img-2.jpg";
-            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
             document.getElementById(s_dot+(dot_number-2)).style.color="gray";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
@@ -437,7 +437,7 @@ function slide_scroll(dot_number)
         {
             document.getElementById("slide_img_1").src="assets/images/slider/slider-img-3.jpg";
             document.getElementById("slide_img_2").src="assets/images/slider/slider-img-4.jpg";
-            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
             document.getElementById(s_dot+(dot_number-2)).style.color="gray";
             document.getElementById(s_dot+(dot_number-3)).style.color="gray";
@@ -454,7 +454,7 @@ function slide_scroll(dot_number)
             document.getElementById("slide_img_3").src="assets/images/slider/slider-img-3.jpg";
             document.getElementById("slide_img_4").src="assets/images/slider/slider-img-4.jpg";
             
-            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number+1)).style.color="gray";
             
         }
@@ -465,7 +465,7 @@ function slide_scroll(dot_number)
             document.getElementById("slide_img_3").src="assets/images/slider/slider-img-2.jpg";
             document.getElementById("slide_img_4").src="assets/images/slider/slider-img-1.jpg";
             
-            document.getElementById(s_dot+dot_number).style.color="red";
+            document.getElementById(s_dot+dot_number).style.color="#ff530a";
             document.getElementById(s_dot+(dot_number-1)).style.color="gray";
                  
         }
