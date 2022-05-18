@@ -1054,9 +1054,8 @@
       height: 170px;
     }
     #contacts .btnsendmessage {
-      float: right;
       margin-right: 33px;
-      height: 80px;
+      height: 65px;
       width: 800px;
       font-size: 1.2rem;
       cursor: pointer;
