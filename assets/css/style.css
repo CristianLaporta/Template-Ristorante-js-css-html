@@ -276,6 +276,7 @@ header nav ul li a {
  #slide i{
 	 font-size:1.5rem;
 	 color:gray;
+     cursor: pointer;
  }
  #slide_position{
 	 width:30%;
@@ -288,6 +289,7 @@ header nav ul li a {
  #slide img{
 	 width:20%;
 	 margin:4px;
+     cursor: pointer;
  }
 #slide_position #slide_dot_1{
     color:red;
