@@ -3,10 +3,18 @@
     src: url(../fonts/ufonts.com_tw-cen-mt.ttf);
   }
   
+
+  #bgrid1{
+    opacity:0;
+  }
+
+
+
   body {
     font-family: myfont;
     font-size: 14px;
     font-weight: 400px;
+    
   }
   /* cristian */
   #intromenu {
