@@ -1,15 +1,16 @@
 /*Sebastian*/
 var flag=1,status=0, cursor=1;
 document.onload=load();
-function load () {window.onscroll=con_delay();}
+/*function load () {window.onscroll=con_delay();}*/
 
+/*
 function con_delay()
 {
     console.log=('hai scrollato!!');
-    /*document.getElementById('bgrid1').style.opacity=1;
-    document.getElementById('bgrid1').style.transition='opacity 1s ease-in';*/
+    document.getElementById('bgrid1').style.opacity=1;
+    document.getElementById('bgrid1').style.transition='opacity 1s ease-in';
 }
-
+*/
 
 function slide_drag()
 {
