@@ -364,16 +364,20 @@
     padding-left: 10px;
   }
   
-  #news .h1news {
+  .h1news {
     color: white;
     position: relative;
     padding: 40px 0;
+    font-size: 30px;
   }
   
   .h1news span {
     color: #ff530a;
+    font-size: 30px;
   }
-  
+  .pnews {
+    font-size: 18px;
+  }
   .newsconttwo .pnews {
     padding: 25px 0px;
     color: #fff;
@@ -433,8 +437,8 @@
   }
   
   .h3contact {
-    padding: 20px 0;
-    font-size: 1.2rem;
+    padding: 20px 0px;
+    font-size: 20px;
   }
   .h3contact span {
     color: #ff5333;
@@ -443,6 +447,7 @@
   .formcontacts {
     height: 46px;
     width: 100%;
+    font-family: myfont;
     padding-left: 10px;
     display: block;
     font-size: 12px;
@@ -669,7 +674,7 @@
       font-weight: 400;
     }
   
-    #news .h1news {
+    .h1news {
       font-size: 30px;
     }
     .aboutcont {
@@ -678,19 +683,25 @@
     .aboutcont p {
       padding-bottom: 0px;
     }
+    #contact h1 {
+      font-size: 36px;
+    }
+    #contact span {
+      font-size: 45px;
+    }
+
   }
   /* contacts  */
   .btnsendmessage {
-    padding: 20px 80px;
     width: 100%;
     background: #ff4f02;
     color: #fff;
     font-weight: 600;
     height: 50px;
-    padding-top: 18px;
     text-decoration: none;
     border: none;
   }
+
   
   /* schermo tablet */
   
@@ -795,22 +806,14 @@
     }
   
     .newscont .newsconttwo .h1news {
-      font-size: 2.1rem;
       letter-spacing: 1.5px;
       font-weight: 400;
     }
-    .newscont .newsconttwo .h1news span {
-      font-size: 2.9rem;
-      font-weight: bold;
-      font-weight: 800;
-    }
   
     .newscont .newsconttwo #formedit {
-      height: 62.5px;
       margin-top: 20px;
       border-radius: none;
       border: none;
-      width: 280px;
       padding-right: 200px;
       padding-left: 8px;
       background-color: #e7e7e7;
@@ -823,29 +826,30 @@
     #contacts {
       text-align: center;
     }
-    #contacts .containercont h1 {
-      font-size: 2.8rem;
-    }
     #contacts .h3contact {
-      margin-left: 50px;
-      margin-right: 50px;
+
       text-align: left;
     }
-    .formcontgroup {
-      margin-left: 50px;
-      margin-right: 50px;
-      
-    }
+
     .btnsendmessage {
-      padding: 15px 80px;
       float: center;
       color: #fff;
       font-weight: 600;
       width: 510px;
       height: 50px;
-     
     }
-  
+    .containercont {
+      width: 750px;
+      padding: 0px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #contactspan {
+      font-size: 45px;
+    }
+    #contacts .containercont h1 {
+      font-size: 36px;
+    }
   /* leo */
   #bgrid {
     display: grid;
@@ -883,6 +887,7 @@
     font-size: 45px;
   }
   #blogcontent h3 {padding-top: 30px;}
+  
 }
   /* schermo laptop piccolo*/
   @media screen and (min-width: 1024px) {
@@ -930,7 +935,10 @@
     .newsconttwo {
       padding: 0% 30% 0%;
     }
-  
+    #formedit {
+      padding: 0px;
+    }
+
     /* eloise */
     header nav ul li a {
       color: #2e2e2e;
@@ -1029,50 +1037,60 @@
     }
   
     .newscont .newsconttwo .h1news {
-      font-size: 3.5rem;
       font-weight: 400;
       letter-spacing: normal;
       margin-bottom: 30px;
     }
-  
-    .newscont .newsconttwo .h1news span {
-      font-size: 4.2rem;
-    }
     .newscont .newsconttwo .pnews {
-      font-size: 1.7rem;
       padding-top: 35px;
     }
     .newscont .newsconttwo #formedit {
-      font-size: 1.2rem;
-      height: 90px;
-      width: 500px;
+      font-size: 16px;
+      width: 200px;
     }
   
     .newscont .newsconttwo .btnform {
-      width: 315px;
-      height: 92px;
-      font-size: 1.3rem;
+
+      font-size: 16px;
+    }
+    .formgroup input {
+      font-size: 16px;
     }
     .newscont .newsconttwo hr {
       width: 220px;
     }
-  
+
+    .newsconttwo {
+      width: 940px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .h1news{
+      font-size: 36px;
+    }
+    .h1news span{
+      font-size: 45px;
+    }
+    .pnews {
+      font-size: 18px;
+    }
     /* contacts */
     #contacts {
-      padding: 2% 10%;
-      text-align: end;
+      padding: 0px 15px;
     }
   
     #contacts .containercont h1 {
-      font-size: 4rem;
+      font-size: 36px;
     }
   
     #contacts .h3contact {
-      font-size: 2rem;
+      font-size: 20px;
     }
-  
+    #contacts .containercont h1 {
+      padding-top: 110px;
+    }
     .formcontacts {
-      height: 76px;
+
       font-size: 1.2rem;
       color: #00000035;
     }
@@ -1083,9 +1101,25 @@
       font-size: 1.2rem;
       cursor: pointer;
       height: 72px;
-      margin-right: 34px;
       width: 680px;
     }
+    .containercont {
+      width: 940px;
+      padding: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .btnsendmessage {
+      padding: 0px;
+    }
+    .h3contact {
+      margin: 0px 0px;
+    }
+    #contactspan {
+      font-size: 45px;
+    }
+
     /*sezione about*/
     .aboutcont h1 {
       font-size: 36px;
@@ -1170,6 +1204,28 @@
     }
     .aboutcont span {
       font-size: 45px;
+    }
+    /*contacts sistemato*/
+    .containercont {
+      width: 1140px;
+    }
+    #contacts .containercont h1 {
+      padding-top: 110px;
+    }
+    /**/
+    .newsconttwo {
+      width: 1140px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .h1news{
+      font-size: 36px;
+    }
+    .h1news span{
+      font-size: 45px;
+    }
+    .pnews {
+      font-size: 18px;
     }
   }
   
