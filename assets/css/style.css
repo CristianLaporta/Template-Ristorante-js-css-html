@@ -290,12 +290,11 @@
   
   #about {
     background-color: #f6f6f6;
-    padding: 100px 0px 30px 0px;
+    padding: 100px 0px;
   }
   .aboutcont {
+    padding: 0px 0px 0px 0px;
     text-align: center;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -664,6 +663,12 @@
     #news .h1news {
       font-size: 30px;
     }
+    .aboutcont {
+      padding: 0px 15px;
+    }
+    .aboutcont p {
+      padding-bottom: 0px;
+    }
   }
   /* contacts  */
   .btnsendmessage {
@@ -752,18 +757,17 @@
   
     /* salvatore */
     /* about */
-    .aboutcont h1 span {
-      font-size: 2.9rem;
+    .aboutcont span {
+      font-size: 45px;
     }
     .aboutcont h1 {
-      font-size: 2.2rem;
+      font-size: 36px;
     }
     .aboutcont {
-      width: 690px;
+      width: 720px;
     }
     .aboutcont p {
       margin: 0 80px;
-      padding-bottom: 100px;
     }
   
     /*news*/
@@ -985,20 +989,14 @@
     /* salvatore */
     /*about*/
   
-    .aboutcont {
-      padding: 60px 0px 120px 0px;
-    }
-    .aboutcont img {
-      height: 200px;
-      width: 200px;
-    }
+
     .aboutcont h1 {
       font-size: 3.3rem;
-      padding: 60px 0px;
+      padding: 40px 0px;
       line-height: 1.2;
     }
     .aboutcont h1 span {
-      font-size: 4.3rem;
+      font-size: 45px;
     }
     .aboutcont p {
       font-size: 1.5rem;
@@ -1071,7 +1069,16 @@
       margin-right: 34px;
       width: 680px;
     }
-   
+    /*sezione about*/
+    .aboutcont h1 {
+      font-size: 36px;
+    }
+    .aboutcont p {
+      font-size: 16px;
+    }
+    .aboutcont {
+      width: 940px;
+    }
 
 
   }
@@ -1134,5 +1141,18 @@
     }
     /*sistemato nav di eloise*/
     header {width: 1108px;}
+    /*parte aboutcontent*/
+    .aboutcont {
+      width: 1140px;
+    }
+    .aboutcont p {
+      font-size: 16px;
+    }
+    .aboutcont h1 {
+      font-size: 36px;
+    }
+    .aboutcont span {
+      font-size: 45px;
+    }
   }
   
