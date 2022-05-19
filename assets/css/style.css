@@ -700,6 +700,8 @@
     height: 50px;
     text-decoration: none;
     border: none;
+    font-family: myfont;
+    font-size: 14px;
   }
 
   
@@ -755,6 +757,9 @@
   
     /* sebastian */
     /*   4 puntini 2 immagini */
+    #slide {
+      width: 710px;
+    }
     #slide_images #slide_img_3 {
       display: none;
     }
@@ -835,8 +840,6 @@
       float: center;
       color: #fff;
       font-weight: 600;
-      width: 510px;
-      height: 50px;
     }
     .containercont {
       width: 750px;
@@ -847,8 +850,9 @@
     #contactspan {
       font-size: 45px;
     }
-    #contacts .containercont h1 {
+    .containercont h1 {
       font-size: 36px;
+      text-align: center;
     }
   /* leo */
   .bgrid {
@@ -949,6 +953,9 @@
     header {width: 908px;}
     /* sebastiano */
     /*  2 puntini 4 immagini */
+    #slide {
+      width: 930px;
+    }
     #slide #slide_dot_3 {
       display: none;
     }
@@ -1098,17 +1105,14 @@
       height: 170px;
     }
     #contacts .btnsendmessage {   
-      font-size: 1.2rem;
-      cursor: pointer;
-      height: 72px;
-      width: 680px;
+      width: 512px;
     }
     .containercont {
       width: 940px;
       padding: 0px;
       margin-left: auto;
       margin-right: auto;
-      text-align: center;
+      text-align: right;
     }
     .btnsendmessage {
       padding: 0px;
@@ -1154,6 +1158,9 @@
   /* sezione leo 1200px */
   
   @media screen and (min-width: 1200px) {
+    #slide {
+      width: 1130px;
+    }
     #blogbox {
       width: 1140px;
       text-align: right;
