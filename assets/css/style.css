@@ -11,25 +11,33 @@
   /* cristian */
   #intromenu {
     text-align: center;
-    padding: 50px 10px 100px;
+    padding-top: 50px;
+    padding: 0px 15px;
+    padding-top: 70px;
   }
   
   #intromenu h3 {
-    font-size: 16px;
-    padding-bottom: 40px;
+    font-size: 22px;
+    padding: 40px 0px;
   }
-  
+  #intromenu span {
+    font-size: 28px;
+  }
   #intromenu p {
     color: #9d9d9d;
     font-size: 16px;
     line-height: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 57px;
+  }
+  #intromenu h4 {
+    padding-top: 100px;
+    width: 100%;
   }
   
   #intromenu hr {
     width: 140px;
-    height: 1px;
+    height: 0px;
     background: #c8c1b3;
   }
   
@@ -39,8 +47,7 @@
   
   #menulist {
     text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 15px;
     font-size: 20px;
     font-weight: 600;
   }
@@ -55,12 +62,13 @@
   }
   
   #menulist h4 {
-    padding-top: 70px;
+    padding-top: 42px;
+    font-size: 20px;
     width: 100%;
   }
   
   #menulist P {
-    padding: 1px 0px 10px;
+    padding-top: 12px;
     color: #a3a3a3;
     font-size: 14px;
     font-weight: 400;
@@ -72,6 +80,7 @@
     color: #ff5f33;
     text-decoration: none;
     font-size: 18px;
+    font-family: myfont;
     background-color: #ffffff;
     padding: 30px 69px;
     border: 1px solid #ff5f33;
@@ -687,9 +696,17 @@
   
   @media screen and (min-width: 768px) {
     /* cristian */
-  
     #menulist {
       padding-left: 3%;
+    }
+    #intromenu h3 {
+      font-size: 36px;
+    }
+    #intromenu span {
+      font-size: 45px;
+    }
+    #menulist h4 {
+      font-size: 24px;
     }
     .contact {
       display: flex;
