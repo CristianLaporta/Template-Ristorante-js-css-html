@@ -917,6 +917,7 @@
       font-size: 15px;
       text-transform: uppercase;
     }
+    header {width: 908px;}
     /* sebastiano */
     /*  2 puntini 4 immagini */
     #slide #slide_dot_3 {
@@ -1131,5 +1132,7 @@
     #infobutton {
       margin-top: 0px;
     }
+    /*sistemato nav di eloise*/
+    header {width: 1108px;}
   }
   
