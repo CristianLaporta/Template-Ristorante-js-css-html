@@ -857,6 +857,7 @@
   #blog span {
     font-size: 45px;
   }
+  #blogcontent h3 {padding-top: 30px;}
 }
   /* schermo laptop piccolo*/
   @media screen and (min-width: 1024px) {
@@ -975,6 +976,7 @@
         position: absolute;
         margin: -86px 0px 0px -50px;
     }
+    #blogcontent h3 {padding-top: 0px;}
     /* salvatore */
     /*about*/
   
