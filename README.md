@@ -10,8 +10,7 @@
 <br>
 
 
-   
-    ✌️ Contributi ✌️	
+✌️ Contributi ✌️	
 
 **Eloise Mandotti:**
 
