@@ -10,7 +10,7 @@
 <br>
 
 
-✌️ Contributi ✌️	<img align="left" src="immagini/gif1/gif">                                   
+✌️ Contributi ✌️	<img align="right" src="immagini/gif1.gif">                                   
   Eloise Mandotti:
 
   - Header
