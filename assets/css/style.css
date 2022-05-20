@@ -278,7 +278,8 @@ header nav ul li a {
 }
 #h1news span {
   color: #ff530a;
-  font-size: 30px;
+  font-size: 27px;
+  font-weight: 600;
 }
 #pnews {
   font-size: 18px;
@@ -684,8 +685,13 @@ footer p span {
     justify-content: center;
   }
   #newscont #h1news {
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
     font-weight: 400;
+    font-size: 2.2rem;
+  }
+  #newscont #h1news span {
+    font-weight: 600;
+    font-size: 2.6rem;
   }
   #newscont #formedit {
     margin-top: 20px;
@@ -853,17 +859,18 @@ footer p span {
   }
   #newscont #pnews {padding-top: 15px;}
   #newscont #btnform {font-size: 16px;}
-  #newscont hr {width: 160px;}
+  #newscont hr {width: 140px;}
   #newscont {
     width: 940px;
     margin-right: auto;
     margin-left: auto;
   }
   #h1news{
-    font-size: 36px;
+    font-size: 38px;
   }
   #h1news span{
-    font-size: 45px;
+    font-size: 46px;
+    font-weight: 600;
   }
 
   #contacts {padding: 0px 15px;}
