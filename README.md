@@ -10,7 +10,7 @@
 <br>
 
 
-  <img  src="immagini/gif1 gif">                                                              ✌️ Contributi ✌️	
+  <img  src="immagini/gif1.gif">                                                              ✌️ Contributi ✌️	
 
                                                                    Eloise Mandotti:
 
