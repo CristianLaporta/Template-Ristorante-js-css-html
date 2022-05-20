@@ -10,34 +10,34 @@
 <br>
 
 
-  ✌️ Contributi ✌️	
+                                                                ✌️ Contributi ✌️	
 
-  **Eloise Mandotti:**
+                                                              **Eloise Mandotti:**
 
-   - Header
+                                                                   - Header
   
-  **Cristian Laporta**
-   - Menù
-   - Footer
-   - ReadMe.md
+                                                               **Cristian Laporta**
+                                                                     - Menù
+                                                                     - Footer
+                                                                     - ReadMe.md
 
-   **Sebastian Lazzeri**
- 
-
-   - Carosello
- 
-   **Leo Folle**
+                                                               **Sebastian Lazzeri**
  
 
-   - Animazioni
-   - Blog
+                                                                    - Carosello
  
-   **Salvatore Esposito**
+                                                                    **Leo Folle**
  
 
-   - About
-   - News
-   - Contatti
+                                                                   - Animazioni
+                                                                   - Blog
+ 
+                                                                **Salvatore Esposito**
+ 
+
+                                                                      - About
+                                                                      - News
+                                                                      - Contatti
 
 
 <hr>
