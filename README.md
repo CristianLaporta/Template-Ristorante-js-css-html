@@ -4,6 +4,7 @@
 <img  src="immagini/gif2.gif" >
 <hr/>
 <h2>Template Ristorante realizzato in HTML,CSS,JS.</h2>
+<h3>Created by:</h3>
 <h4>Eloise:</h4><p>Header</p>
 <hr/>
 <h4>Sebastian:</h4><p>Carosello</p>
