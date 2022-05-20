@@ -10,34 +10,32 @@
 <br>
 
 
-                                                                ✌️ Contributi ✌️	
+  <img  src="immagini/gif1 gif">                                                              ✌️ Contributi ✌️	
 
-                                                              **Eloise Mandotti:**
+                                                                   Eloise Mandotti:
 
                                                                    - Header
   
-                                                               **Cristian Laporta**
-                                                                     - Menù
-                                                                     - Footer
-                                                                     - ReadMe.md
+                                                                   Cristian Laporta:
 
-                                                               **Sebastian Lazzeri**
- 
+                                                                    - Menù
+                                                                    - Footer
+                                                                    - ReadMe.md
 
-                                                                    - Carosello
- 
-                                                                    **Leo Folle**
- 
+                                                                   Sebastian Lazzeri:
 
-                                                                   - Animazioni
-                                                                   - Blog
- 
-                                                                **Salvatore Esposito**
- 
+                                                                     - Carosello
 
-                                                                      - About
-                                                                      - News
-                                                                      - Contatti
+                                                                    Leo Folle:
+
+                                                                    - Animazioni
+                                                                    - Blog
+ 
+                                                                  Salvatore Esposito:
+ 
+                                                                     - About
+                                                                     - News
+                                                                    - Contatti
 
 
 <hr>
