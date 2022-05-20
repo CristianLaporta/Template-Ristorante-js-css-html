@@ -449,7 +449,7 @@ window.addEventListener('scroll',rivela);
                 }
                 if (y>3200) {
                     document.getElementById('infobutton').style.opacity='1';
-                    document.getElementById('infobutton').style.transition='1s ease-in';
+                    document.getElementById('infobutton').style.transition='1s ease';
                 }
                 if (y>3550) {
                     document.getElementById('intromenu').style.opacity='1';
@@ -479,7 +479,7 @@ window.addEventListener('scroll',rivela);
                     document.getElementById('contacts').style.opacity='1';
                     document.getElementById('contacts').style.transition='1s ease-in';
                 }
-                if (y>6250) {
+                if (y>6300) {
                     document.getElementById('contactinfo').style.opacity='1';
                     document.getElementById('contactinfo').style.transition='1s ease-in';
                 }
@@ -519,7 +519,7 @@ window.addEventListener('scroll',rivela);
                 }
                 if (y>2330) {
                     document.getElementById('infobutton').style.opacity='1';
-                    document.getElementById('infobutton').style.transition='1s ease-in';
+                    document.getElementById('infobutton').style.transition='1s ease';
                 }
                 if (y>2640) {
                     document.getElementById('intromenu').style.opacity='1';
@@ -549,7 +549,7 @@ window.addEventListener('scroll',rivela);
                     document.getElementById('contacts').style.opacity='1';
                     document.getElementById('contacts').style.transition='1s ease-in';
                 }
-                if (y>5100) {
+                if (y>5150) {
                     document.getElementById('contactinfo').style.opacity='1';
                     document.getElementById('contactinfo').style.transition='1s ease-in';
                 }
@@ -589,7 +589,7 @@ window.addEventListener('scroll',rivela);
                 }
                 if (y>1450) {
                     document.getElementById('infobutton').style.opacity='1';
-                    document.getElementById('infobutton').style.transition='1s ease-in';
+                    document.getElementById('infobutton').style.transition='1s ease';
                 }
                 if (y>1800) {
                     document.getElementById('intromenu').style.opacity='1';
@@ -619,7 +619,7 @@ window.addEventListener('scroll',rivela);
                     document.getElementById('contacts').style.opacity='1';
                     document.getElementById('contacts').style.transition='1s ease-in';
                 }
-                if (y>4250) {
+                if (y>4300) {
                     document.getElementById('contactinfo').style.opacity='1';
                     document.getElementById('contactinfo').style.transition='1s ease-in';
                 }
@@ -659,7 +659,7 @@ window.addEventListener('scroll',rivela);
                 }
                 if (y>1525) {
                     document.getElementById('infobutton').style.opacity='1';
-                    document.getElementById('infobutton').style.transition='1s ease-in';
+                    document.getElementById('infobutton').style.transition='1s ease';
                 }
                 if (y>1850) {
                     document.getElementById('intromenu').style.opacity='1';
@@ -689,7 +689,7 @@ window.addEventListener('scroll',rivela);
                     document.getElementById('contacts').style.opacity='1';
                     document.getElementById('contacts').style.transition='1s ease-in';
                 }
-                if (y>4350) {
+                if (y>4400) {
                     document.getElementById('contactinfo').style.opacity='1';
                     document.getElementById('contactinfo').style.transition='1s ease-in';
                 }
