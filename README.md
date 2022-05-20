@@ -11,9 +11,14 @@
 <p align="center">
 <img src="immagini/gif1.gif" >  
    <br>
+</p>
+<p align="center"> 
 
 **[🤜 Prova il template! 🤛](https://thecriicom.github.io/buildweek-1/)**
-<br></p>
+</p>
+
+
+<br>
 <hr>
 
 <h1 align="center"> ️🤝 Sviluppatori 🤝 </h1>
