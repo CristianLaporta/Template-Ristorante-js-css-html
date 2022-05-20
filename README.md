@@ -10,7 +10,7 @@
 <br>
 
 <p align="left">
-<img src="immagini/gif1.gif">       
+       
 ✌️ Contributi ✌️	                            
   Eloise Mandotti:
 
@@ -22,7 +22,7 @@
  - Footer
  - ReadMe.md
 
-  Sebastian Lazzeri:
+  Sebastian Lazzeri:                      <img src="immagini/gif1.gif"> 
 
 - Carosello
 
