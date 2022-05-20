@@ -12,7 +12,7 @@
 <img src="immagini/gif1.gif" >  
    <br>
 </p>
-<p align="center"> <a href="immagini/prova.png" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a></p>
+<p align="center"> <a href="https://thecriicom.github.io/buildweek-1/" target="_blank" > <img src="immagini/prova.png" alt="prova" /> </a></p>
 
 
 
