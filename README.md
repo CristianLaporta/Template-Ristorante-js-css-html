@@ -10,7 +10,7 @@
 <br>
 
 <div style=”border: 1px solid #000″>
-    <img src=”immagini/gif1.gif” alt=”mobile” style=”float:left;margin: 10px”>
+    <img src=”https://github.com/TheCriicom/buildweek-1/blob/b2c66139c75eccd44a21c0ab884df60c245c8d9e/immagini/gif1.gif” alt=”mobile” style=”float:left;margin: 10px”>
    
     ✌️ Contributi ✌️	
 
