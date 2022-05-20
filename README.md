@@ -1,9 +1,8 @@
-<h1>Build Week per EPICODE!</h1>
+<h1>Template "Ristorante" realizzato in HTML,CSS,JS.</h1>
 <hr/>
 <h2>Layout Desktop</h2>
 <img  src="immagini/gif2.gif" >
 <hr/>
-<h2>Template Ristorante realizzato in HTML,CSS,JS.</h2>
 <h3>Created by:</h3>
 <hr/>
 <h4>Eloise:</h4><p>Header</p>
