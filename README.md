@@ -10,7 +10,7 @@
 <br>
 
 
-✌️ Contributi ✌️	                                   <img  src="immagini/gif1.gif"> 
+✌️ Contributi ✌️	                                   
   Eloise Mandotti:
 
   - Header
@@ -34,7 +34,7 @@
  
 - About
 - News
- - Contatti
+ - Contatti                                            <img  src="immagini/gif1.gif">  
  
 
 <hr>
