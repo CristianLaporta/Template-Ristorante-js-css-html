@@ -675,7 +675,6 @@ footer p span {
 
   #aboutcont h1 span {font-size: 45px;}
   #aboutcont h1 {font-size: 36px;}
-  #aboutcont {width: 720px;}
   #aboutcont p {margin: 0 80px;}
   #newscont #formgroup {
     margin: 0px auto;
@@ -851,7 +850,7 @@ footer p span {
   #blogcontent h3 {padding-top: 0px;}
 
   #aboutcont h1 span {font-size: 45px;}
-  #aboutcont hr {width: 200px;}
+  #aboutcont hr {width: 140px;}
 
   #newscont #h1news {
     font-weight: 400;
@@ -859,7 +858,7 @@ footer p span {
   }
   #newscont #pnews {padding-top: 15px;}
   #newscont #btnform {font-size: 16px;}
-  #newscont hr {width: 140px;}
+  #newscont hr {width: 132px;}
   #newscont {
     width: 940px;
     margin-right: auto;
@@ -892,7 +891,7 @@ footer p span {
   #btnsendmessage {padding: 0px;}
   #h3contact {margin: 0px 0px;}
   #contactspan {font-size: 45px;}
-  #aboutcont h1 {font-size: 36px;}
+  #aboutcont h1 {font-size: 36px; line-height: 1.1;}
   #aboutcont {width: 940px;}
   #contact {
     display: initial;
