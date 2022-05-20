@@ -10,34 +10,34 @@
 <br>
 
 
-✌️ Contributi ✌️	
+  ✌️ Contributi ✌️	
 
-**Eloise Mandotti:**
+  **Eloise Mandotti:**
 
- - Header
+   - Header
   
-**Cristian Laporta**
- - Menù
- - Footer
- - ReadMe.md
+  **Cristian Laporta**
+   - Menù
+   - Footer
+   - ReadMe.md
 
- **Sebastian Lazzeri**
- 
-
- - Carosello
- 
- **Leo Folle**
+   **Sebastian Lazzeri**
  
 
- - Animazioni
- - Blog
+   - Carosello
  
- **Salvatore Esposito**
+   **Leo Folle**
  
 
- - About
- - News
- - Contatti
+   - Animazioni
+   - Blog
+ 
+   **Salvatore Esposito**
+ 
+
+   - About
+   - News
+   - Contatti
 
 
 <hr>
@@ -46,7 +46,7 @@
 
 | ![enter image description here](https://avatars.githubusercontent.com/u/104636248?v=4)[Elois Mandotti](https://github.com/eloismandotti) | ![enter image description here](https://avatars.githubusercontent.com/u/37643992?v=4)[Cristian Laporta](https://github.com/TheCriicom) |
 |--|--|
-| ![enter image description here](https://avatars.githubusercontent.com/u/40839465?v=4)**[Sebastian Lazzeri](https://github.com/Ottoemmezzo)**| ![enter image description here](https://avatars.githubusercontent.com/u/104635962?v=4)**[Leo Folle](https://github.com/LeoFolle)** |
+| ![enter image description here](https://avatars.githubusercontent.com/u/40839465?v=4)**[Sebastian Lazzeri](https://github.com/Ottoemmezzo)** | ![enter image description here](https://avatars.githubusercontent.com/u/104635962?v=4)**[Leo Folle](https://github.com/LeoFolle)**  |
 | ![Salvatore Esposito](https://avatars.githubusercontent.com/u/104637369?v=4)**[Salvatore Esposito](https://github.com/Salvatore-Esposito1)** |  |
 
 
