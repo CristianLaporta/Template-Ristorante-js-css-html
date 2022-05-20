@@ -10,7 +10,7 @@
 <br>
 
 
-✌️ Contributi ✌️	
+✌️ Contributi ✌️	                                   <img  src="immagini/gif1.gif"> 
   Eloise Mandotti:
 
   - Header
@@ -19,7 +19,7 @@
 
   - Menù
  - Footer
-   - ReadMe.md
+ - ReadMe.md
 
   Sebastian Lazzeri:
 
@@ -35,7 +35,7 @@
 - About
 - News
  - Contatti
-  <img  src="immagini/gif1.gif"> 
+ 
 
 <hr>
 
