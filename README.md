@@ -10,32 +10,31 @@
 <br>
 
 
-                                                             ✌️ Contributi ✌️	
+✌️ Contributi ✌️	
+  Eloise Mandotti:
 
-                                                                   Eloise Mandotti:
-
-                                                                   - Header
+  - Header
   
-                                                                   Cristian Laporta:
+  Cristian Laporta:
 
-                                                                    - Menù
-                                                                    - Footer
-                                                                    - ReadMe.md
+  - Menù
+ - Footer
+   - ReadMe.md
 
-                                                                   Sebastian Lazzeri:
+  Sebastian Lazzeri:
 
-                                                                     - Carosello
+- Carosello
 
-                                                                    Leo Folle:
+ Leo Folle:
 
-                                                                    - Animazioni
-                                                                    - Blog
+ - Animazioni
+- Blog
  
-                                                                  Salvatore Esposito:
+ Salvatore Esposito:
  
-                                                                     - About
-                                                                     - News
-                                                                    - Contatti
+- About
+- News
+ - Contatti
   <img  src="immagini/gif1.gif"> 
 
 <hr>
