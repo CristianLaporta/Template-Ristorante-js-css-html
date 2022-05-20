@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <img  src="immagini/gif1.gif" >
 <p align="center">
