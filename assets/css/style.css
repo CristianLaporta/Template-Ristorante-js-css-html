@@ -13,6 +13,7 @@ body {
 header, #effetoslide, #effettoabout, #blogcontainer, #intromenu, #menulist, #news, #contactinfo, #containercont {
   transition: 0.5s;
 }
+button {cursor: pointer;}
 #intromenu {
   text-align: center;
   padding-top: 50px;
@@ -493,7 +494,7 @@ header nav ul li a {
   color: rgb(255, 255, 255);
   font-size: 15px;
 }
-.fborder:hover {background-color: #ff6600d5;}
+.fborder:hover {background-color: #FF4F02;}
 footer span {
   color: #ff5f33;
   font-size: 20px;
@@ -543,21 +544,29 @@ footer span {
 }
 #footerbot img {
   margin: 0px 20px 25px 0px;
+  cursor: pointer;
 }
 #footerbot i {
   width: 40px;
-  height: 32px;
+  height: 30px;
   text-align: center;
   margin-right: 20px;
   margin-top: -20px;
   padding-bottom: 50px;
   padding: 8px 0px 0px;
+  cursor: pointer;
 }
 footer {
   background-color: #E9E9E9;
   color: #454545;
-  padding: 20px 0;
+  padding: 28px 0;
   text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+footer p span {
+   font-size: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -844,7 +853,7 @@ footer {
   }
   #newscont #pnews {padding-top: 15px;}
   #newscont #btnform {font-size: 16px;}
-  #newscont hr {width: 220px;}
+  #newscont hr {width: 160px;}
   #newscont {
     width: 940px;
     margin-right: auto;
